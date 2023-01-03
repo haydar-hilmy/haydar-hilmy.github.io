@@ -41,11 +41,25 @@ Penggemar berat JDM CAR
 	</div>
 </div>
 
-
-<button class="klik_me" onclick="play()" id="klik_me">klik me</button>
+<h2>Tombol Gabut</h2>
+<div class="wrap-btn">
+	<button class="klik_me" onclick="play()" id="klik_me1">RickRoll</button>
+	<button class="klik_me" onclick="stutu()" id="klik_me2">S for stustutu</button>
+	<button class="klik_me" onclick="goofy()" id="klik_me3">Goofy Ohio</button>
+</div>
 
 <audio id="audio">
   <source src="rickroll.mp3" type="audio/mpeg">
+browsermu nggak support audio :(
+</audio>
+
+<audio id="audio2">
+  <source src="turbo_sound.wav" type="audio/mpeg">
+browsermu nggak support audio :(
+</audio>
+
+<audio id="audio3">
+  <source src="goofy_ohio.mp3" type="audio/mpeg">
 browsermu nggak support audio :(
 </audio>
 
@@ -114,6 +128,7 @@ h4{
 	grid-template-columns: auto auto;
     justify-items: center;
     justify-content: center;
+    margin: 0 0 100px 0;
 }
 .pack-sub-img{
 	width: 200px;
@@ -166,8 +181,12 @@ h5.khusus{
 	50%{opacity: 0.9}
 	100%{opacity: 0}
 }
+.wrap-btn{
+	display: grid;
+	grid-template-columns: auto auto;
+}
 .klik_me{
-	margin: 100px 0 100px 0;
+	margin: 10px 10px 10px 10px;
 	width: 150px;
 	border: 1px solid rgba(0, 0, 0, 0.7);
 	padding: 10px 14px;
@@ -214,8 +233,10 @@ h5.khusus{
 	}
 
 	var mus = 0;
+	var btn1 = document.getElementById("klik_me1");
+	var btn2 = document.getElementById("klik_me2");
+	var btn3 = document.getElementById("klik_me3");
 	function play() {
-	var btn = document.getElementById("klik_me");
 	var audio = document.getElementById("audio");
 	switch(mus){
 		case 0:
@@ -228,6 +249,36 @@ h5.khusus{
 			break;
 	}
       }
+
+     	var stu = 0;
+    function stutu() {
+			var audio2 = document.getElementById("audio2");
+			switch(stu){
+		case 0:
+			audio2.play();
+			stu = 1;
+			break;
+		case 1:
+			audio2.pause();
+			stu = 0;
+			break;
+	}
+     }
+
+         	var gof = 0;
+    function goofy() {
+			var audio3 = document.getElementById("audio3");
+			switch(gof){
+		case 0:
+			audio3.play();
+			gof = 1;
+			break;
+		case 1:
+			audio3.pause();
+			gof = 0;
+			break;
+	}
+     }
 
     setInterval(ganti_text, 800);
 
