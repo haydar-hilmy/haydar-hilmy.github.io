@@ -121,7 +121,7 @@
     </div>
 
     <div style="margin: 0 30px;">
-        <form method="post" action="" class="container d-block w-100 alert alert-info mb-5">
+        <div class="container d-block w-100 alert alert-info mb-5">
             <h5 class="text-center">Rate This Site</h5>
             <label for="myname" class="form-label">Fill your name</label>
             <input maxlength="200" name="nama" class="form-control mb-2" type="text" placeholder="Namamu &#128522" id="myname">
@@ -130,8 +130,8 @@
             <label for="rating-level">Rate this site:</label> <span id="val-of-rate">70 &#128519</span>
             <input name="nilai_web" class="form-range mb-4" value="70" oninput="rate_value(this)" min="1" max="100" type="range"
                 id="rating-level">
-            <button type="submit" onclick="alert('sorry mas bro server masih menten\ntapi, thanks mas bro');" name="kirim_comment" class="btn btn-primary w-100">Submit</button>
-        </form>
+            <button type="submit" onclick="alert('sorry mas bro server masih menten\ntapi, thanks mas bro');window.location.href = 'index.html'" name="kirim_comment" class="btn btn-primary w-100">Submit</button>
+        </div>
 
     <script src="js-css/js/bootstrap.bundle.min.js"></script>
 </body>
