@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vigenere Chiper - Keycode Method</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="js-css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js-css/mycss.css">
+    <link rel="icon" type="image/x-icon" href="mark-meme.jpg">
+    <script src="js-css/myjs.js"></script>
+</head>
+
+<body>
+
+    <h3 class="text-center mb-5 mt-5">Vigenere Chiper - Keycode Method</h3>
+
+    <div class="pack-enc-dec">
+
+        <div style="width: 80%;" class="enc-pack">
+            <h5 class="mb-1 text-center">Encrypt</h5>
+            <p class="mb-4 font-weight-light text-center">Ubah <strong>teks biasa</strong> menjadi teks yang diacak atau
+                sulit
+                dibaca</p>
+            <div class="w-100">
+
+                <label for="plaintext_encrypt" class="text-left mb-1">Plaintext</label>
+                <input id="plaintext_encrypt" oninput="myUpperCase_left(this)" class="form-control w-100 mb-4"
+                    placeholder="Plaintext atau Teks Biasa" type="text">
+
+                <label for="keycode_encrypt" class="text-left mb-1">Keycode</label>
+                <input id="keycode_encrypt" oninput="myUpperCase_left(this)" class="form-control w-100 mb-4"
+                    placeholder="Keycode atau Password" type="text">
+
+                <p class="mb-1">Hasil ke Chipertext</p>
+                <p style="cursor: pointer;word-break: break-all;" id="result-chiper" class="form-control w-100 mb-4 text-center">Hasil tampil
+                    disini</p>
+
+                <!-- SUCCESS bOX -->
+                <div id="alert-box-enc-success" class="alert alert-success">
+                    <strong>Success!</strong> <span id="alert-text-enc-success"></span>
+                </div>
+
+                <!-- INFO bOX -->
+                <div id="alert-box-enc-info" class="alert alert-info">
+                    <strong>Info!</strong> <span id="alert-text-enc-info">Klik untuk
+                        mengcopy<br><strong>Perhatikan!</strong> keycode perlu diingat untuk konversi ke
+                        teks biasa</span>
+                </div>
+
+                <!-- WARNING bOX -->
+                <div id="alert-box-enc-danger" class="alert alert-danger">
+                    <strong>Warning!</strong> <span id="alert-text-enc-danger">Tidak bisa menggunakan karakter selain
+                        alfabet maupun spasi</span>
+                </div>
+
+
+                <button class="btn btn-primary w-100" id="encrypt">Encrypt</button>
+            </div>
+        </div>
+
+        <div style="width: 80%;" class="dec-pack">
+            <h5 class="mb-1 text-center">Decrypt</h5>
+            <p class="mb-4 font-weight-light text-center">Ubah <strong>chiper teks</strong> menjadi teks biasa atau teks
+                yang bisa
+                dibaca</p>
+            <div class="w-100">
+                <label for="chipper_code" class="text-left mb-1">Chiper Text</label>
+                <input id="chipper_code" oninput="myUpperCase_right(this)" class="form-control w-100 mb-4"
+                    placeholder="Chipertext atau Teks Acak" type="text">
+
+                <label for="keycode_decrypt" class="text-left mb-1">Keycode</label>
+                <input id="keycode_decrypt" oninput="myUpperCase_right(this)" class="form-control w-100 mb-4"
+                    placeholder="Keycode atau Password" type="text">
+
+                <p class="mb-1">Hasil ke Teks Biasa</p>
+                <p style="cursor: pointer;" id="result-plaintxt" class="form-control w-100 mb-4 text-center">Hasil
+                    tampil disini</p>
+
+                <!-- SUCCESS BOX -->
+                <div id="alert-box-dec-success" class="alert alert-success">
+                    <strong>Success!</strong> <span id="alert-text-dec-success"></span>
+                </div>
+
+                <!-- INFO BOX -->
+                <div id="alert-box-dec-info" class="alert alert-info">
+                    <strong>Info!</strong> <span id="alert-text-dec-info">Klik untuk
+                        mengcopy<br><strong>Perhatikan!</strong> keycode perlu diingat untuk konversi ke chiper
+                        text</span>
+                </div>
+
+                <!-- WARNING BOX -->
+                <div id="alert-box-dec-danger" class="alert alert-danger">
+                    <strong>Warning!</strong> <span id="alert-text-dec-danger">Tidak bisa menggunakan karakter selain
+                        alfabet maupun spasi</span>
+                </div>
+
+                <button class="btn btn-primary w-100" id="decrypt">Decrypt</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div style="margin: 30px;" class="alert alert-secondary">
+        <strong>Bagaimana cara kerjanya</strong><br>
+        Pada suatu karakter plaintext dikurangi keycode.<br>
+        Misal kita menuliskan pesan biasa atau plaintext yaitu <b>HELLOWORLD</b>
+        dengan keycode <b>PRO</b>
+        <ul>
+            <li>langkahnya yaitu menyamakan panjang keycode dengan plaintext, maka menjadi <b>PROPROPROP</b>.</li>
+            <li>Setelah menyamakan panjang nya</li>
+            <li>setiap karakter pada plaintext ditambah setiap karakter pada keycode</li>
+            <li>Misal suatu karakter pada plaintext yaitu H = 7 dan suatu karakter pada keycode yaitu P = 15</li>
+            <li>maka 7 + 15 = 22 lalu dimodulus 26 (jumlah huruf alfabet) maka akan ketemu 22</li>
+            <li>lalu konversikan 22 itu ke alfabet menjadi huruf <b>W</b>. klik <a href="https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg">di sini</a> untuk lihat tabel ASCII</li>
+            <li>Langkah tersebut berulang-ulang sesuai panjang karakter pada plaintext dan keycode dan samakan urutannya
+            </li>
+            <li>hasil jadi nya yaitu <b>WVZAFKDIZS</b> teks tersebut adalah chipertext</li>
+        </ul>
+    </div>
+
+    <div style="margin: 0 30px;">
+        <form method="post" action="" class="container d-block w-100 alert alert-info mb-5">
+            <h5 class="text-center">Rate This Site</h5>
+            <label for="myname" class="form-label">Fill your name</label>
+            <input maxlength="200" name="nama" class="form-control mb-2" type="text" placeholder="Namamu &#128522" id="myname">
+            <label for="mycomment" class="form-label">Gimme ur Comment</label>
+            <textarea maxlength="200" name="komen" id="mycomment" class="form-control mb-2" placeholder="Berikan komentarmu &#128517"></textarea>
+            <label for="rating-level">Rate this site:</label> <span id="val-of-rate">70 &#128519</span>
+            <input name="nilai_web" class="form-range mb-4" value="70" oninput="rate_value(this)" min="1" max="100" type="range"
+                id="rating-level">
+            <button type="submit" onclick="alert('sorry mas bro server masih menten\ntapi, thanks mas bro');" name="kirim_comment" class="btn btn-primary w-100">Submit</button>
+        </form>
+
+    <script src="js-css/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
