@@ -4,6 +4,43 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/1485273631177412612/Hrs4GXxs_400x400.jpg">
+	<script>
+        let permission = Notification.permission;
+        if (permission === "granted") {
+            showNotification();
+            console.log("permission granted:",permission);
+        } else if (permission === "default") {
+            requestAndShowPermission();
+            console.log("permission default:",permission);
+        } else {
+            alert("Use normal alert");
+        }
+        function showNotification() {
+            if (document.visibilityState === "visible") {
+                console.log("document visible");
+                return;
+            }
+            console.log("test");
+            var title = "JavaScript Jeep";
+            icon = "mark-meme.jpg"
+            var body = "Message to be displayed";
+            var notification = new Notification('Title', { body, icon });
+            notification.onclick = () => {
+                notification.close();
+                window.parent.focus();
+            }
+        }
+        function requestAndShowPermission() {
+            console.log("request");
+            Notification.requestPermission(function (permission) {
+                if (permission === "granted") {
+                    showNotification();
+                    console.log(permission);
+                    console.log(typeof permission);
+                }
+            });
+        }
+    </script>
 	<title id="title">halo ges</title>
 </head>
 <body>
