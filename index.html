@@ -4,6 +4,37 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/1485273631177412612/Hrs4GXxs_400x400.jpg">
+	<script>
+        if ("Notification" in window) {
+            function get_greet() {
+                const waktu = new Date();
+                var jam = waktu.getHours();
+                if(jam < 13){
+                    return "Selamat siang";
+                }                
+            }
+            // Let's check if the user has granted permission to display notifications
+            if (Notification.permission === "granted") {
+                var mygreet = get_greet();
+                const waktu = new Date();
+                // var menit = waktu.getMinutes();
+                var jam = waktu.getHours();
+                // If it's okay let's create a notification
+                var notification = new Notification(mygreet);
+            }
+
+            // Otherwise, we need to ask the user for permission
+            else if (Notification.permission !== "denied") {
+                Notification.requestPermission().then(function (permission) {
+                    // If the user accepts, let's create a notification
+                    if (permission === "granted") {
+                        var notification = new Notification("Hi there!");
+                    }
+                });
+            }
+        }
+
+    </script>
 	<title id="title">halo ges</title>
 </head>
 <body>
