@@ -50,6 +50,11 @@ btn_search.addEventListener('click', function () {
     $(document).ready(function () {
       // Buat biar ke effect refresh
       $("#show-title-weather").hide();
+      $(".myinfo").hide();
+      $("#show-title-weather").hide();
+      $("#show-region").hide();
+      $("#weather-icon").hide();
+      $("#show-desc-weather").hide();
 
       $(".subcontainer").show(100);
       setTimeout(() => {
