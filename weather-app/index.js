@@ -91,6 +91,26 @@ btn_search.addEventListener('click', function () {
         const clouds_all = data.clouds.all;
         const get_lat = data.coord.lat;
         const get_lon = data.coord.lon;
+        
+        // get direction compass
+        var wind_direct = "";
+        if(wind_deg == 360 || wind_deg == 0){
+          wind_direct = "N";
+        } else if(wind_deg < 90){
+          wind_direct = "NE";
+        } else if(wind_deg == 90){
+          wind_direct = "E";
+        } else if(wind_deg < 180){
+          wind_direct = "SE";
+        } else if(wind_deg == 180){
+          wind_direct = "S";
+        } else if(wind_deg < 270){
+          wind_direct = "SW";
+        } else if(wind_deg == 270){
+          wind_direct = "W";
+        } else if(wind_deg < 360){
+          wind_direct = "NW";
+        }
 
         // convert kelvin to celcius
         let celcius_feels_like = parseInt(feelsLike) - 273.15;
@@ -144,7 +164,7 @@ btn_search.addEventListener('click', function () {
         show_temp_min.innerHTML = celcius_temp_min + "&deg;C";
         show_temp_max.innerHTML = celcius_temp_max + "&deg;C";
         show_pressure.innerHTML = get_pressure + "hPa";
-        show_windDegree.innerHTML = wind_deg + "&deg;";
+        show_windDegree.innerHTML = wind_deg + "&deg;" + wind_direct;
         show_cloudsAll.innerHTML = clouds_all + "%";
         show_latitude.innerHTML = get_lat;
         show_longitude.innerHTML = get_lon;
