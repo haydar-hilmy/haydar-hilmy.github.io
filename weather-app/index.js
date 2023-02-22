@@ -36,10 +36,10 @@ btn_search.addEventListener('click', function () {
   function notFound(params) {
     $(document).ready(function () {
       $(".subcontainer").show(100);
-      $(".txt404").show(100);
       setTimeout(() => {
         $("#show-title-weather").text("Oops! Kota tidak ditemukan :(");
         $("#show-title-weather").show(300);
+        $(".txt404").show(300);
         $(".myinfo").hide(300);
         $("#show-region").hide(300);
         $("#weather-icon").hide(300);
