@@ -5,6 +5,7 @@ $(document).ready(function(){
   $("#show-region").hide();
   $("#weather-icon").hide();
   $("#show-desc-weather").hide();
+  $(".txt404").hide();
 });
 
 const apiKey = "c0c083bc03d9f002ce678129d69335ba";
@@ -35,6 +36,7 @@ btn_search.addEventListener('click', function () {
   function notFound(params) {
     $(document).ready(function () {
       $(".subcontainer").show(100);
+      $(".txt404").show(100);
       setTimeout(() => {
         $("#show-title-weather").text("Oops! Kota tidak ditemukan :(");
         $("#show-title-weather").show(300);
@@ -50,6 +52,7 @@ btn_search.addEventListener('click', function () {
     $(document).ready(function () {
       // Buat biar ke effect refresh
       $("#show-title-weather").hide();
+      $(".txt404").hide();
       $(".myinfo").hide();
       $("#show-title-weather").hide();
       $("#show-region").hide();
