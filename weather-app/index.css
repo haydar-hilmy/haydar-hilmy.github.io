@@ -97,7 +97,7 @@ html,
       font-style: normal;
       font-family: 'Inter', sans-serif;
       letter-spacing: 0.1em;
-      margin: 0 10px 5px 10px;
+      margin: 0 35px 5px 35px;
       text-transform: capitalize;
       text-align: center;
       word-break: normal;
@@ -172,6 +172,12 @@ html,
     .mycredit{
         color: #fff;
         font-weight: lighter;
+    }
+
+    .txt404{
+        font-size: 3rem;
+        color: #fff;
+        font-weight: 600;
     }
 
 
