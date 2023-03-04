@@ -127,8 +127,12 @@ form.addEventListener('submit', (event) => {
       console.log(data);
       get_data_city(data);
       cityFound();
+      if(data.cod == "400"){
+        cityNotFound();
+      }
     })
     .catch(error => {
+      console.log("ERROR", error);
       cityNotFound();
     });
 });
@@ -160,8 +164,8 @@ $(document).ready(function () {
 
       get_data_city(data_city);
       cityFound();
-    }, "json").fail(cityNotFound);
-  }, "json").fail(cityNotFound);
+    }, "json");
+  }, "json");
 });
 
 function cityNotFound() {
