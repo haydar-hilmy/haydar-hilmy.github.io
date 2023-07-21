@@ -1,4 +1,4 @@
-var images = ['"D:\Coding Project\MY LANGUAGE\PHP HTML\Love_Puzzle-main\image.jpg"'];
+var images = ['https://raw.githubusercontent.com/haydar-hilmy/haydar-hilmy.github.io/main/puzzle-for-you/image.jpg'];
 
 var currentIndex = 0;
 var totalClicks = 0;
