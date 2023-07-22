@@ -129,7 +129,7 @@ async function sendMessage(event, getclick) {
     let get_id = localStorage.getItem('cv_haydar');
     let first_time_view = localStorage.getItem('view_at');
 
-    // const apiToken = '6139081807:AAHKB0b7jIK_v-SeJ_RUbkmqyKdNEz_PVKk';
+    const apiToken = '6139081807:AAHKB0b7jIK_v-SeJ_RUbkmqyKdNEz_PVKk';
     let content = `
 [Alert] %0A
 Viewer id = ${get_id}%0A
