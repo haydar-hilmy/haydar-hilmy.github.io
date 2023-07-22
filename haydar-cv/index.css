@@ -1,0 +1,133 @@
+body {
+    background-color: #DFE4EA;
+    color: #0F0F0F;
+    font-family: Inter, sans-serif;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 7% 13%;
+}
+
+.title-name {
+    width: auto;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 1.44px;
+    margin: 0;
+}
+
+h1 {
+    color: #0F0F0F;
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 2.56px;
+    margin: 0;
+    word-break: break-all;
+}
+
+.main-content {
+    margin: 54px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.pp {
+    border-radius: 50%;
+    width: 97px;
+}
+
+.sub-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.sub-content h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1.28px;
+    margin: 0 0 5px 0;
+    display: inline-block;
+}
+
+.sub-content p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 130.523%;
+    letter-spacing: 0.96px;
+}
+
+.sub-info h3 {
+    margin: 0 0 8px 0;
+}
+
+.sub-info ul {
+    padding-inline-start: 0;
+    font-size: 1.15rem;
+    margin: 12px 0 0 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.sub-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sub-info a:hover {
+    text-decoration: underline;
+}
+
+.sub-info i {
+    font-size: 1.2rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15%;
+    margin: 6rem 0 6rem 0;
+}
+
+.sub-info .sub {
+    margin: 12px 0 0 0;
+}
+
+.sub-info .sub h4,
+.sub-info .sub p {
+    font-size: 1.05rem;
+}
+
+@media screen and (width < 850px){
+    footer{
+        grid-template-columns: auto;
+    }
+}
+@media screen and (width < 600px) {
+    .main-content{
+        flex-direction: column;
+    }
+}
+@media screen and (width < 950px) {
+    .main-content{
+        margin-bottom: 6rem;
+    }
+}
+@media screen and (width < 500px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}
