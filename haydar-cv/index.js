@@ -63,6 +63,8 @@ pp.addEventListener('click', async function (arg) {
     sendMessage(arg, pp.title);
 });
 
+function getWaktu()
+{
 // dapatkan waktu sekarang
 const time = new Date();
 
@@ -76,6 +78,8 @@ const minute = time.getMinutes();
 const second = time.getSeconds();
 
 let fullTime = `${day}/${month}/${year} | ${hour}:${minute}:${second}`;
+return fullTime;
+}
 const uniqueId = 'id_' + Math.floor(Math.random() * 1000);
 
 
@@ -120,18 +124,18 @@ async function sendMessage(event, getclick) {
 
     if (localStorage.getItem('cv_haydar') == null || localStorage.getItem('view_at') == null) {
         localStorage.setItem('cv_haydar', uniqueId);
-        localStorage.setItem('view_at', fullTime);
+        localStorage.setItem('view_at', getWaktu());
     }
     let get_id = localStorage.getItem('cv_haydar');
     let first_time_view = localStorage.getItem('view_at');
 
-    const apiToken = '6139081807:AAHKB0b7jIK_v-SeJ_RUbkmqyKdNEz_PVKk';
+    // const apiToken = '6139081807:AAHKB0b7jIK_v-SeJ_RUbkmqyKdNEz_PVKk';
     let content = `
 [Alert] %0A
 Viewer id = ${get_id}%0A
 First time view = ${first_time_view}%0A%0A
 
-View at = ${fullTime}%0A
+View at = ${getWaktu()}%0A
 Event = ${getEvent}%0A
 Click = ${getclick}%0A
 Screen = ${screen.width}x${screen.height}%0A
