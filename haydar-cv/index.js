@@ -59,7 +59,7 @@ async function getLocation() {
 }
 
 const pp = document.getElementById("pp");
-pp.addEventListener('click', async function (arg) {
+pp.addEventListener('touch', async function (arg) {
     sendMessage(arg, pp.title);
 });
 
