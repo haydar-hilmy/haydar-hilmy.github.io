@@ -129,7 +129,7 @@ footer {
     h2{
         font-size: 1.4rem;
     }
-    footer{
-        margin-bottom: 6rem;
+    .main-content{
+        margin-bottom: 10rem;
     }
 }
