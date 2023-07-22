@@ -21,8 +21,8 @@ $(document).ready(function () {
         typeSpeed: 17,
         showCursor: true,
         cursorChar: '<h4>|</h4>',
-        backSpeed: 12,
-        backDelay: 1000,
+        backSpeed: 17,
+        backDelay: 2000,
         loop: true,
     });
 });
