@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/1485273631177412612/Hrs4GXxs_400x400.jpg">
+	<title id="title">halo ges</title>
+</head>
+<body>
+
+
+<div class="pack">
+	<img ondblclick="window.location = 'photo_profile.jpg'" src="photo_profile.jpg" class="main_pp">
+
+	<h2>Haydar Hilmy Alhakim</h2>
+
+	<h3 id="bisa_dipanggil">Bisa dipanggil<br>Haydar</h3>
+
+	<h4>
+Graduate S3 (Sd) (Smp) (Sma)<br>
+Currently acquiring knowledge in Informatics Engineering at Udinus<br>
+Residing in the New York of Indonesia (Kendal)<br>
+Breathing since 19 years ago<br>
+A devoted enthusiast of JDM Cars
+</h4>
+
+<h2>Foto Cakep Gweh</h2>
+
+<div class="pack-img">
+	<div style="background-image: url('hits.jpg');" class="pack-sub-img">
+		<h5>Haydar Hits 2018</h5>
+	</div>
+	<div style="background-image: url('haydar_swag.jpg');" class="pack-sub-img">
+		<h5>Haydar Swag</h5>
+	</div>
+	<div style="background-image: url('haydar_animek.png');" class="pack-sub-img">
+		<div class="hidden-img" style="background-image: url('haydar.jpg');"><h5>Animek</h5></div>
+	</div>
+	<div style="background-image: url('jong_xina.png');" class="pack-sub-img">
+		<h5 ondblclick="window.location = 'https://i.etsystatic.com/14951240/r/il/6b7a35/3536263578/il_794xN.3536263578_8ry6.jpg'">Jong Xina</h5>
+	</div>
+</div>
+
+<h2>Tombol Gabut</h2>
+<div class="wrap-btn">
+	<button class="klik_me" onclick="play()" id="klik_me1">RickRoll</button>
+	<button class="klik_me" onclick="stutu()" id="klik_me2">S for stustutu</button>
+	<button class="klik_me" onclick="goofy()" id="klik_me3">Goofy Ohio</button>
+	<button class="klik_me" onclick="window.location.href = 'vigenere-chiper'" id="klik_me3">Vigenere Chiper</button>
+	<button class="klik_me" onclick="window.location.href = 'weather-app-forecast'" id="klik_me3">Weather App</button>
+	<button class="klik_me" onclick="window.location.href = 'data-gempa'" id="klik_me3">Data Gempa BMKG</button>
+</div>
+
+<audio id="audio">
+  <source src="rickroll.mp3" type="audio/mpeg">
+browsermu nggak support audio :(
+</audio>
+
+<audio id="audio2">
+  <source src="turbo_sound.wav" type="audio/mpeg">
+browsermu nggak support audio :(
+</audio>
+
+<audio id="audio3">
+  <source src="goofy_ohio.mp3" type="audio/mpeg">
+browsermu nggak support audio :(
+</audio>
+
+</div>
+
+
+</body>
+</html>
+
+<style type="text/css">
+body, html{
+	scroll-behavior: smooth;
+}	
+body{
+	margin: 0;
+	font-family: helvetica, sans-serif;
+	color: #000;
+	background-color: #fff;
+}
+h2{
+	font-size: 1.2rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+h3{
+	font-weight: normal;
+	line-height: 150%;
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+}
+h4{
+	font-weight: normal;
+	line-height: 190%;
+	font-size: 1rem;
+}
+.pack{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 70px 0;
+	animation-name: in;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+@keyframes in{
+	0%{
+		transform: translateY(-110px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+.main_pp{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+.pack-img{
+	display: grid;
+	width: 100%;
+	grid-template-columns: auto auto;
+    justify-items: center;
+    justify-content: center;
+    margin: 0 0 100px 0;
+}
+.pack-sub-img{
+	width: 200px;
+	height: 200px;
+    margin: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-size: 0.9rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+h5{
+	display: flex;
+	width: 100%;height: 100%;
+	z-index: 1;
+	margin: 0;
+	opacity: 0;
+	justify-content: center;
+	align-items: center;
+	transition-duration: 300ms;
+	font-size: 0.95rem;
+}
+h5.khusus{
+	opacity: 0;
+}
+.pack-sub-img:hover > h5 ,.hidden-img:hover > h5{
+	transition-duration: 200ms;
+	backdrop-filter: brightness(0.5);
+	opacity: 1;
+}
+.hidden-img{
+	background-size: 100%;
+	width: 100%;height: 100%;
+	z-index: 2;
+	opacity: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	animation-name: hiden;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 5s;
+}
+@keyframes hiden{
+	0%{opacity: 0}
+	50%{opacity: 0.7}
+	100%{opacity: 0}
+}
+.wrap-btn{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.klik_me{
+	margin: 10px 10px 10px 10px;
+	width: 150px;
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	padding: 10px 14px;
+	letter-spacing: 1px;
+	border-radius: 10px;
+}
+.klik_me:hover{
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+.klik_me:active{
+	box-shadow: 0 4px 7px rgba(0, 0, 0, 0.55);
+}
+</style>
+
+<script type="text/javascript">
+
+	var ttl = document.getElementById("title");
+
+	const waktu = new Date();
+	var jam = waktu.getHours();
+
+	if(jam < 3){
+		ttl.innerHTML = "Selamat Pagi, Tapi masih ngantuk";
+	} else if(jam < 5){
+		ttl.innerHTML = "Mari Sholat Shubuh Sebelum Fajar Tiba";
+	} else if(jam < 9){
+		ttl.innerHTML = "Selamat Pagi, Jalani Hidupmu Dengan Semangat :)";
+	} else if(jam < 13){
+		ttl.innerHTML = "Selamat Siang!!!";
+	} else if(jam < 14){
+		ttl.innerHTML = "Siang! Jangan Lupa Sholat Dhuhur";
+	} else if(jam < 16){
+		ttl.innerHTML = "Selamat Sore!";
+	} else if(jam < 18){
+		ttl.innerHTML = "Selamat Sore! Jangan Lupa Sholat Ashar";
+	} else if(jam < 19){
+		ttl.innerHTML = "Selamat Sore Menjelang Malam! Jangan Lupa Sholat Mahgrib";
+	} else if(jam < 21){
+		ttl.innerHTML = "Selamat Malam! Jangan Lupa Sholat Isyak Sebelum Tidur";
+	} else if(jam < 23){
+		ttl.innerHTML = "Selamat Malam! Yuk Istirahat, Jaga Kesehatan";
+	} else {
+		ttl.innerHTML = "Halo Kamu";
+	}
+
+	var mus = 0;
+	var btn1 = document.getElementById("klik_me1");
+	var btn2 = document.getElementById("klik_me2");
+	var btn3 = document.getElementById("klik_me3");
+	function play() {
+	var audio = document.getElementById("audio");
+	switch(mus){
+		case 0:
+			audio.play();
+			mus = 1;
+			break;
+		case 1:
+			audio.pause();
+			mus = 0;
+			break;
+	}
+      }
+
+     	var stu = 0;
+    function stutu() {
+			var audio2 = document.getElementById("audio2");
+			switch(stu){
+		case 0:
+			audio2.play();
+			stu = 1;
+			break;
+		case 1:
+			audio2.pause();
+			stu = 0;
+			break;
+	}
+     }
+
+         	var gof = 0;
+    function goofy() {
+			var audio3 = document.getElementById("audio3");
+			switch(gof){
+		case 0:
+			audio3.play();
+			gof = 1;
+			break;
+		case 1:
+			audio3.pause();
+			gof = 0;
+			break;
+	}
+     }
+
+    
+
+    var arg = 1;
+    function ganti_text() {
+    var txt = document.getElementById("bisa_dipanggil");
+    	switch(arg){
+    	case 1:
+    		txt.innerHTML = "Bisa dipanggil <br>Mas Haydar";
+    		arg = 2;
+    		break;
+    	case 2:
+    		txt.innerHTML = "Bisa dipanggil<br>Bray Haydar";
+    		arg = 3;
+    		break;
+    	case 3:
+    		txt.innerHTML = "Bisa dipanggil<br>Bre Haydar";
+    		arg = 4;
+    		break;
+    	case 4:
+    		txt.innerHTML = "Bisa dipanggil<br>Bro Haydar";
+    		arg = 5;
+    		break;
+    	case 5:
+    		txt.innerHTML = "Bisa dipanggil<br>Gan Haydar";
+    		arg = 6;
+    		break;
+    	case 6:
+    		txt.innerHTML = "Bisa dipanggil<br>Cuy Haydar";
+    		arg = 1;
+    		break;
+    	}
+    }
+
+</script>
