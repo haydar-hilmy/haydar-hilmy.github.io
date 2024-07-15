@@ -1,1 +1,32 @@
-
+[
+  {
+    "nama": "Topi",
+    "sub_nama": "Eceng Gondok",
+    "harga": "Rp50.000",
+    "gambar": "topi.jpg"
+  },
+  {
+    "nama": "Gantungan kunci",
+    "sub_nama": "Eceng Gondok",
+    "harga": "Rp10.000",
+    "gambar": "ganci.jpg"
+  },
+  {
+    "nama": "Tempat tisu",
+    "sub_nama": "Eceng Gondok",
+    "harga": "Rp60.000",
+    "gambar": "tempat-tisu.jpg"
+  },
+  {
+    "nama": "Kotak Hantaran",
+    "sub_nama": "Eceng Gondok",
+    "harga": "Rp50.000",
+    "gambar": "kotak-hantaran.jpg"
+  },
+  {
+    "nama": "Vas Gentong",
+    "sub_nama": "Eceng Gondok",
+    "harga": "Rp50.000",
+    "gambar": "vas-gentong.jpg"
+  }
+]
