@@ -3,30 +3,35 @@
     "nama": "Topi",
     "sub_nama": "Eceng Gondok",
     "harga": 50000,
-    "gambar": "topi.jpg"
+    "gambar": "topi.jpg",
+    "link": ""
   },
   {
     "nama": "Gantungan kunci",
     "sub_nama": "Eceng Gondok",
     "harga": 10000,
-    "gambar": "ganci.jpg"
+    "gambar": "ganci.jpg",
+    "link": ""
   },
   {
     "nama": "Tempat tisu",
     "sub_nama": "Eceng Gondok",
     "harga": 60000,
-    "gambar": "tempat-tisu.jpg"
+    "gambar": "tempat-tisu.jpg",
+    "link": ""
   },
   {
     "nama": "Kotak Hantaran",
     "sub_nama": "Eceng Gondok",
     "harga": 50000,
-    "gambar": "kotak-hantaran.jpg"
+    "gambar": "kotak-hantaran.jpg",
+    "link": ""
   },
   {
     "nama": "Vas Gentong",
     "sub_nama": "Eceng Gondok",
     "harga": 50000,
-    "gambar": "vas-gentong.jpg"
+    "gambar": "vas-gentong.jpg",
+    "link": ""
   }
 ]
