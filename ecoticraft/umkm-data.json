@@ -1,10 +1,26 @@
 [
     {
-        "judul": "Tahu Bakso \"83\"",
-        "alamat_lengkap": "Gading RT 03 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
-        "alamat_singkat": "Gading RT 03 RW 02 Desa Tuntang",
-        "no_telp": "085729211937",
-        "gambar": "tahubakso83.jpg",
+        "judul": "Cikidul Eceng Gondok",
+        "alamat_lengkap": "Cikal RT 05 RW 07 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Cikal RT 05 RW 07 Desa Tuntang",
+        "no_telp": "085729320717",
+        "gambar": "",
+        "link": ""
+    },
+    {
+        "judul": "\"ETY\" Snack",
+        "alamat_lengkap": "Gading RT 01 RW 02 Desa Tuntang, Kec. Tuntang, Kab. semarang.",
+        "alamat_singkat": "Gading RT 01 RW 02 Desa Tuntang",
+        "no_telp": "085712616626",
+        "gambar": "",
+        "link": ""
+    },
+    {
+        "judul": "Erna \"Makmur Abadi\"",
+        "alamat_lengkap": "",
+        "alamat_singkat": "",
+        "no_telp": "",
+        "gambar": "",
         "link": ""
     },
     {
@@ -24,14 +40,6 @@
         "link": ""
     },
     {
-        "judul": "'KHAMDANAH' Tempe Kedelai",
-        "alamat_lengkap": "Cikal RW 07 Desa Tuntang, Kec. Tuntang, Kab.Semarang.",
-        "alamat_singkat": "Cikal RW 07 Desa Tuntang",
-        "no_telp": "085720827548",
-        "gambar": "",
-        "link": ""
-    },
-    {
         "judul": "\"Tiara\" Kerupuk Kedelai",
         "alamat_lengkap": "Gading RT 01 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
         "alamat_singkat": "Gading RT 01 RW 02 Desa Tuntang",
@@ -40,11 +48,11 @@
         "link": ""
     },
     {
-        "judul": "Kopi Daleman",
-        "alamat_lengkap": "Daleman RW 04 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
-        "alamat_singkat": "Daleman RW 04 Desa Tuntang",
-        "no_telp": "082223178470",
-        "gambar": "",
+        "judul": "Tahu Bakso \"83\"",
+        "alamat_lengkap": "Gading RT 03 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Gading RT 03 RW 02 Desa Tuntang",
+        "no_telp": "085729211937",
+        "gambar": "tahubakso83.jpg",
         "link": ""
     },
     {
@@ -52,30 +60,6 @@
         "alamat_lengkap": "Gading RT 04 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
         "alamat_singkat": "Gading RT 04 RW 02 Desa Tuntang",
         "no_telp": "0818457860",
-        "gambar": "",
-        "link": ""
-    },
-    {
-        "judul": "Diamonds Bouquet",
-        "alamat_lengkap": "Gading RT 01 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
-        "alamat_singkat": "Gading RT 01 RW 02 Desa Tuntang",
-        "no_telp": "085600537781",
-        "gambar": "",
-        "link": ""
-    },
-    {
-        "judul": "\"ETY\" Snack",
-        "alamat_lengkap": "Gading RT 01 RW 02 Desa Tuntang, Kec. Tuntang, Kab. semarang.",
-        "alamat_singkat": "Gading RT 01 RW 02 Desa Tuntang",
-        "no_telp": "085712616626",
-        "gambar": "",
-        "link": ""
-    },
-    {
-        "judul": "Cikidul Eceng Gondok",
-        "alamat_lengkap": "Cikal RT 05 RW 07 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
-        "alamat_singkat": "Cikal RT 05 RW 07 Desa Tuntang",
-        "no_telp": "085729320717",
         "gambar": "",
         "link": ""
     }
