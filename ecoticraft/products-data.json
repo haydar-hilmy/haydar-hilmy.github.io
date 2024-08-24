@@ -1,77 +1,72 @@
 [
-  [
-    {
-      "nama": "Topi",
+  {
+    "nama": "Topi",
+    "sub_nama": "Eceng Gondok",
+    "harga": 50000,
+    "gambar": "topi.jpg",
+    "link": "https://shopee.co.id/cikidul07"
+  },
+  {
+    "nama": "Gantungan kunci",
+    "sub_nama": "Eceng Gondok",
+    "harga": 10000,
+    "gambar": "ganci.jpg",
+    "link": "https://shopee.co.id/cikidul07"
+  },
+  {
+    "nama": "Tempat tisu",
+    "sub_nama": "Eceng Gondok",
+    "harga": 60000,
+    "gambar": "tempat-tisu.jpg",
+    "link": "https://shopee.co.id/cikidul07"
+  },
+  {
+    "nama": "Kotak Hantaran",
+    "sub_nama": "Eceng Gondok",
+    "harga": 50000,
+    "gambar": "kotak-hantaran.jpg",
+    "link": "https://shopee.co.id/cikidul07"
+  },
+  {
+    "nama": "Vas Gentong",
+    "sub_nama": "Eceng Gondok",
+    "harga": 50000,
+    "gambar": "vas-gentong.jpg",
+    "link": "https://shopee.co.id/cikidul07"
+  },
+  {
+      "nama": "Tas Model 1",
       "sub_nama": "Eceng Gondok",
-      "harga": 50000,
-      "gambar": "topi.jpg",
+      "harga": 120000,
+      "gambar": "tas1.jpg",
       "link": "https://shopee.co.id/cikidul07"
-    },
-    {
-      "nama": "Gantungan kunci",
+  },
+  {
+      "nama": "Tas Model 2",
       "sub_nama": "Eceng Gondok",
-      "harga": 10000,
-      "gambar": "ganci.jpg",
+      "harga": 150000,
+      "gambar": "tas2.jpg",
       "link": "https://shopee.co.id/cikidul07"
-    },
-    {
-      "nama": "Tempat tisu",
+  },
+  {
+      "nama": "Tas Model 3",
       "sub_nama": "Eceng Gondok",
-      "harga": 60000,
-      "gambar": "tempat-tisu.jpg",
+      "harga": 130000,
+      "gambar": "tas3.jpg",
       "link": "https://shopee.co.id/cikidul07"
-    },
-    {
-      "nama": "Kotak Hantaran",
+  },
+  {
+      "nama": "Tas Model 4",
       "sub_nama": "Eceng Gondok",
-      "harga": 50000,
-      "gambar": "kotak-hantaran.jpg",
+      "harga": 150000,
+      "gambar": "tas4.jpg",
       "link": "https://shopee.co.id/cikidul07"
-    },
-    {
-      "nama": "Vas Gentong",
+  },
+  {
+      "nama": "Sandal",
       "sub_nama": "Eceng Gondok",
-      "harga": 50000,
-      "gambar": "vas-gentong.jpg",
+      "harga": 180000,
+      "gambar": "sandal.jpg",
       "link": "https://shopee.co.id/cikidul07"
-    }
-  ],
-  [
-    {
-        "nama": "Tas Model 1",
-        "sub_nama": "Eceng Gondok",
-        "harga": 120000,
-        "gambar": "tas1.jpg",
-        "link": "https://shopee.co.id/cikidul07"
-    },
-    {
-        "nama": "Tas Model 2",
-        "sub_nama": "Eceng Gondok",
-        "harga": 150000,
-        "gambar": "tas2.jpg",
-        "link": "https://shopee.co.id/cikidul07"
-    },
-    {
-        "nama": "Tas Model 3",
-        "sub_nama": "Eceng Gondok",
-        "harga": 130000,
-        "gambar": "tas3.jpg",
-        "link": "https://shopee.co.id/cikidul07"
-    },
-    {
-        "nama": "Tas Model 4",
-        "sub_nama": "Eceng Gondok",
-        "harga": 150000,
-        "gambar": "tas4.jpg",
-        "link": "https://shopee.co.id/cikidul07"
-    },
-    {
-        "nama": "Sandal",
-        "sub_nama": "Eceng Gondok",
-        "harga": 180000,
-        "gambar": "sandal.jpg",
-        "link": "https://shopee.co.id/cikidul07"
-    }
-]
-
+  }
 ]
