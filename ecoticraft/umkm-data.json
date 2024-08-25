@@ -49,38 +49,38 @@
         "maps": "https://www.google.com/maps/search/?api=1&query=Petet+RT+02+RW+01+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
         "deskripsi": "",
         "pemilik": "",
-        "produk_lain": {
-            [
-            "judul": "madu 1",
-            "deskripsi": "Madu ENAK",
-            "harga": "Rp.50000",
-            "gambar": "madu-manggaremas.jpg",
-            ],
-            [
-            "judul": "madu 1",
-            "deskripsi": "Madu ENAK",
-            "harga": "Rp.50000",
-            "gambar": "madu-manggaremas.jpg",
-            ],
-            [
-            "judul": "madu 1",
-            "deskripsi": "Madu ENAK",
-            "harga": "Rp.50000",
-            "gambar": "madu-manggaremas.jpg",
-            ],
-            [
-            "judul": "madu 1",
-            "deskripsi": "Madu ENAK",
-            "harga": "Rp.50000",
-            "gambar": "madu-manggaremas.jpg",
-            ],
-            [
-            "judul": "madu 1",
-            "deskripsi": "Madu ENAK",
-            "harga": "Rp.50000",
-            "gambar": "madu-manggaremas.jpg",
-            ]
-        }
+        "produk_lain": [
+            {
+                "judul": "madu 1",
+                "deskripsi": "Madu ENAK",
+                "harga": "Rp.50000",
+                "gambar": "madu-manggaremas.jpg"
+            },
+            {
+                "judul": "madu 2",
+                "deskripsi": "Madu ENAK",
+                "harga": "Rp.50000",
+                "gambar": "madu-manggaremas.jpg"
+            },
+            {
+                "judul": "madu 3",
+                "deskripsi": "Madu ENAK",
+                "harga": "Rp.50000",
+                "gambar": "madu-manggaremas.jpg"
+            },
+            {
+                "judul": "madu 4",
+                "deskripsi": "Madu ENAK",
+                "harga": "Rp.50000",
+                "gambar": "madu-manggaremas.jpg"
+            },
+            {
+                "judul": "madu 5",
+                "deskripsi": "Madu ENAK",
+                "harga": "Rp.50000",
+                "gambar": "madu-manggaremas.jpg"
+            }
+        ]
     },
     {
         "id": 5,
