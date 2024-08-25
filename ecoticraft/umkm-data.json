@@ -9,7 +9,7 @@
         "link": "",
         "maps": "https://www.google.com/maps/search/?api=1&query=Cikal+RT+05+RW+07+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
         "deskripsi": "",
-        "pemilik": "",
+        "pemilik": "Bu Rofida",
         "produk_lain": ""
     },
     {
@@ -22,7 +22,7 @@
         "link": "",
         "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+01+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
         "deskripsi": "",
-        "pemilik": "",
+        "pemilik": "Bu Ety",
         "produk_lain": ""
     },
     {
@@ -35,7 +35,7 @@
         "link": "",
         "maps": "https://maps.app.goo.gl/hUtFmnH5CrUDKniu7",
         "deskripsi": "",
-        "pemilik": "",
+        "pemilik": "Bu Erna",
         "produk_lain": ""
     },
     {
@@ -49,7 +49,38 @@
         "maps": "https://www.google.com/maps/search/?api=1&query=Petet+RT+02+RW+01+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
         "deskripsi": "",
         "pemilik": "",
-        "produk_lain": ""
+        "produk_lain": {
+            [
+            "judul": "madu 1",
+            "deskripsi": "Madu ENAK",
+            "harga": "Rp.50000",
+            "gambar": "madu-manggaremas.jpg",
+            ],
+            [
+            "judul": "madu 1",
+            "deskripsi": "Madu ENAK",
+            "harga": "Rp.50000",
+            "gambar": "madu-manggaremas.jpg",
+            ],
+            [
+            "judul": "madu 1",
+            "deskripsi": "Madu ENAK",
+            "harga": "Rp.50000",
+            "gambar": "madu-manggaremas.jpg",
+            ],
+            [
+            "judul": "madu 1",
+            "deskripsi": "Madu ENAK",
+            "harga": "Rp.50000",
+            "gambar": "madu-manggaremas.jpg",
+            ],
+            [
+            "judul": "madu 1",
+            "deskripsi": "Madu ENAK",
+            "harga": "Rp.50000",
+            "gambar": "madu-manggaremas.jpg",
+            ]
+        }
     },
     {
         "id": 5,
@@ -74,7 +105,7 @@
         "link": "",
         "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+01+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
         "deskripsi": "",
-        "pemilik": "",
+        "pemilik": "Pak Wandi",
         "produk_lain": ""
     },
     {
@@ -100,7 +131,7 @@
         "link": "",
         "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+04+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
         "deskripsi": "",
-        "pemilik": "",
+        "pemilik": "Pak Akbar",
         "produk_lain": ""
     }
 ]
