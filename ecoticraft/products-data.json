@@ -68,5 +68,12 @@
       "harga": 180000,
       "gambar": "sandal.jpg",
       "link": "https://shopee.co.id/cikidul07"
+  },
+  {
+    "nama": "Tempat Permen",
+    "sub_nama": "Eceng Gondok",
+    "harga": 35000,
+    "gambar": "tempat-permen.jpeg",
+    "link": "https://shopee.co.id/cikidul07"
   }
 ]
