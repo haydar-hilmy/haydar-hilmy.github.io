@@ -7,7 +7,10 @@
         "no_telp": "085729320717",
         "gambar": "",
         "link": "",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Cikal+RT+05+RW+07+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang"
+        "maps": "https://www.google.com/maps/search/?api=1&query=Cikal+RT+05+RW+07+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "",
+        "gambar_lain": ""
     },
     {
         "id": 2,
@@ -17,7 +20,10 @@
         "no_telp": "085712616626",
         "gambar": "",
         "link": "",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+01+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang"
+        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+01+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "",
+        "gambar_lain": ""
     },
     {
         "id": 3,
@@ -27,7 +33,10 @@
         "no_telp": "",
         "gambar": "",
         "link": "",
-        "maps": "https://maps.app.goo.gl/hUtFmnH5CrUDKniu7"
+        "maps": "https://maps.app.goo.gl/hUtFmnH5CrUDKniu7",
+        "deskripsi": "",
+        "pemilik": "",
+        "gambar_lain": ""
     },
     {
         "id": 4,
@@ -37,7 +46,10 @@
         "no_telp": "081390219237",
         "gambar": "madu-manggaremas.jpg",
         "link": "",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Petet+RT+02+RW+01+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang"
+        "maps": "https://www.google.com/maps/search/?api=1&query=Petet+RT+02+RW+01+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "",
+        "gambar_lain": ""
     },
     {
         "id": 5,
@@ -47,7 +59,10 @@
         "no_telp": "08565061996",
         "gambar": "peningset.jpg",
         "link": "",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+02+RW+03+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang"
+        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+02+RW+03+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "",
+        "gambar_lain": ""
     },
     {
         "id": 6,
@@ -57,7 +72,10 @@
         "no_telp": "081228533717",
         "gambar": "",
         "link": "",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+01+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang"
+        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+01+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "",
+        "gambar_lain": ""
     },
     {
         "id": 7,
@@ -67,7 +85,10 @@
         "no_telp": "085729211937",
         "gambar": "tahubakso83.jpg",
         "link": "",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+03+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang"
+        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+03+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "",
+        "gambar_lain": ""
     },
     {
         "id": 8,
@@ -77,6 +98,9 @@
         "no_telp": "0818457860",
         "gambar": "",
         "link": "",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+04+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang"
+        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+04+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "",
+        "gambar_lain": ""
     }
 ]
