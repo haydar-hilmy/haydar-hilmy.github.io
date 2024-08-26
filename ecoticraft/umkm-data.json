@@ -10,7 +10,62 @@
         "maps": "https://maps.app.goo.gl/hUtFmnH5CrUDKniu7",
         "deskripsi": "",
         "pemilik": "Bu Erna",
-        "produk_lain": []
+        "produk_lain": [
+            {
+                "judul": "Stik Kopi Manis",
+                "deskripsi": "",
+                "harga": "",
+                "gambar", "ma-stik-kopi-manis1.jpg"
+            },
+            {
+                "judul": "Stik Kopi Gurih",
+                "deskripsi": "",
+                "harga": "",
+                "gambar", "ma-stik-kopi-gurih1.jpg"
+            },
+            {
+                "judul": "Tumpi Daun Adas",
+                "deskripsi": "",
+                "harga": "",
+                "gambar", "ma-tumpi-daun-adas.jpg"
+            },
+            {
+                "judul": "Tumpi Daun bayam",
+                "deskripsi": "",
+                "harga": "",
+                "gambar", "ma-tumpi-daun-bayam.jpg"
+            },
+            {
+                "judul": "Tumpi Daun Kelor",
+                "deskripsi": "",
+                "harga": "",
+                "gambar", "ma-tumpi-daun-kelor.jpg"
+            },
+            {
+                "judul": "Tumpi Daun",
+                "deskripsi": "",
+                "harga": "",
+                "gambar", "ma-tumpi-daun-.jpg"
+            },
+            {
+                "judul": "Tumpi Daun Kemangi",
+                "deskripsi": "",
+                "harga": "",
+                "gambar", "ma-tumpi-daun-kemangi.jpg"
+            },
+            {
+                "judul": "Tumpi Daun Kenikir",
+                "deskripsi": "",
+                "harga": "",
+                "gambar", "ma-tumpi-daun-kenikir.jpg"
+            },
+            {
+                "judul": "Tumpi Daun Seledri",
+                "deskripsi": "",
+                "harga": "",
+                "gambar", "ma-tumpi-daun-seledri.jpg"
+            }
+        ]
     },
     {
         "id": 2,
@@ -66,7 +121,7 @@
     },
     {
         "id": 6,
-        "judul": "ETY Snack",
+        "judul": "Ety Snack and Catering",
         "alamat_lengkap": "Gading RT 01 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
         "alamat_singkat": "Gading RT 01 RW 02 Desa Tuntang",
         "no_telp": "6285712616626",
@@ -74,20 +129,20 @@
         "link": "",
         "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+01+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
         "deskripsi": "",
-        "pemilik": "Bu Ety",
+        "pemilik": "Bu Ety Indrayanti",
         "produk_lain": []
     },
     {
         "id": 7,
         "judul": "Tahu Bakso 83",
-        "alamat_lengkap": "Gading RT 03 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
-        "alamat_singkat": "Gading RT 03 RW 02 Desa Tuntang",
+        "alamat_lengkap": "Gading RT 04 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Gading RT 04 RW 02 Desa Tuntang",
         "no_telp": "6285729211937",
         "gambar": "tahubakso83.jpg",
         "link": "",
         "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+03+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
         "deskripsi": "",
-        "pemilik": "",
+        "pemilik": "Bapak Musyafiin",
         "produk_lain": []
     }
 ]
