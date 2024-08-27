@@ -89,6 +89,19 @@
     },
     {
         "id": 4,
+        "judul": "Cruipto Moms",
+        "alamat_lengkap": "Dusun Cikal RT 02 RW 04, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Dusun Cikal RT 02 RW 04, Tuntang",
+        "no_telp": "6285727137037",
+        "gambar": "",
+        "link": "",
+        "maps": "https://maps.app.goo.gl/5i2XB4R5kNvVc5529",
+        "deskripsi": "",
+        "pemilik": "Astuti & Family",
+        "produk_lain": []
+    },
+    {
+        "id": 5,
         "judul": "Ety Snack and Catering",
         "alamat_lengkap": "Gading RT 01 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
         "alamat_singkat": "Gading RT 01 RW 02 Desa Tuntang",
@@ -126,7 +139,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "judul": "Peningset_id",
         "alamat_lengkap": "Gading RT 02 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
         "alamat_singkat": "Gading RT 02 RW 02 Desa Tuntang",
@@ -139,7 +152,7 @@
         "produk_lain": []
     },
     {
-        "id": 6,
+        "id": 7,
         "judul": "Tahu Bakso 83",
         "alamat_lengkap": "Gading RT 04 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
         "alamat_singkat": "Gading RT 04 RW 02 Desa Tuntang",
@@ -152,7 +165,7 @@
         "produk_lain": []
     },
     {
-        "id": 7,
+        "id": 8,
         "judul": "Tiara Kerupuk Kedelai",
         "alamat_lengkap": "Gading RT 01 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
         "alamat_singkat": "Gading RT 01 RW 02 Desa Tuntang",
@@ -165,7 +178,7 @@
         "produk_lain": []
     },
     {
-        "id": 8,
+        "id": 9,
         "judul": "Akbar Kerupuk Rambak",
         "alamat_lengkap": "Gading RT 04 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
         "alamat_singkat": "Gading RT 04 RW 02 Desa Tuntang",
