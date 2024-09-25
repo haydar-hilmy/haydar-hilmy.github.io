@@ -1,0 +1,193 @@
+[
+    {
+        "id": 1,
+        "judul": "Aneka Kripik Makmur Abadi",
+        "alamat_lengkap": "Praguman, Tuntang, Kec. Tuntang, Kabupaten Semarang, Jawa Tengah 50773",
+        "alamat_singkat": "Praguman, Tuntang, Kec. Tuntang",
+        "no_telp": "6285866129040",
+        "gambar": "ma-banner.jpg",
+        "link": "",
+        "maps": "https://maps.app.goo.gl/hUtFmnH5CrUDKniu7",
+        "deskripsi": "",
+        "pemilik": "Bu Erna",
+        "produk_lain": [
+            {
+                "judul": "Stik Kopi Manis",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ma-stik-kopi-manis1.jpg"
+            },
+            {
+                "judul": "Stik Kopi Gurih",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ma-stik-kopi-gurih1.jpg"
+            },
+            {
+                "judul": "Tumpi Daun Adas",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ma-tumpi-daun-adas.jpg"
+            },
+            {
+                "judul": "Tumpi Daun bayam",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ma-tumpi-daun-bayam.jpg"
+            },
+            {
+                "judul": "Tumpi Daun Kelor",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ma-tumpi-daun-kelor.jpg"
+            },
+            {
+                "judul": "Tumpi Daun Kemangi",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ma-tumpi-daun-kemangi.jpg"
+            },
+            {
+                "judul": "Tumpi Daun Kenikir",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ma-tumpi-daun-kenikir.jpg"
+            },
+            {
+                "judul": "Tumpi Daun Seledri",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ma-tumpi-daun-seledri.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "judul": "Tahu Bakso Artaya Arum \"AA\"",
+        "alamat_lengkap": "Dusun Cikal RT 03 RW 07, Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Dusun Cikal RT 03 RW 07",
+        "no_telp": "6285861275083",
+        "gambar": "aa-tahubakso.jpg",
+        "link": "",
+        "maps": "https://maps.app.goo.gl/fUFnDVsGSrtiUPPJ6",
+        "deskripsi": "",
+        "pemilik": "Bu Ida Rahmatun",
+        "produk_lain": []
+    },
+    {
+        "id": 3,
+        "judul": "Madu Manggar Emas",
+        "alamat_lengkap": "Petet RT 02 RW 01 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Petet RT 02 RW 01 Desa Tuntang",
+        "no_telp": "6281390219237",
+        "gambar": "madu-manggaremas.jpg",
+        "link": "",
+        "maps": "https://maps.app.goo.gl/3G9YRnpKYLYXUKvSA",
+        "deskripsi": "",
+        "pemilik": "",
+        "produk_lain": []
+    },
+    {
+        "id": 4,
+        "judul": "Cruipto Moms",
+        "alamat_lengkap": "Dusun Cikal RT 02 RW 04, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Dusun Cikal RT 02 RW 04, Tuntang",
+        "no_telp": "6285727137037",
+        "gambar": "cruipto-keripik-kentang.jpg",
+        "link": "",
+        "maps": "https://maps.app.goo.gl/5i2XB4R5kNvVc5529",
+        "deskripsi": "",
+        "pemilik": "Astuti & Family",
+        "produk_lain": []
+    },
+    {
+        "id": 5,
+        "judul": "Ety Snack and Catering",
+        "alamat_lengkap": "Gading RT 01 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Gading RT 01 RW 02 Desa Tuntang",
+        "no_telp": "6285712616626",
+        "gambar": "ety-produk2.jpg",
+        "link": "",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+01+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "Bu Ety Indrayanti",
+        "produk_lain": [
+            {
+                "judul": "Pudding Buah",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ety-produk1.jpg"
+            },
+            {
+                "judul": "Macaroni Schotel",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ety-produk2.jpg"
+            },
+            {
+                "judul": "Kue Snack",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ety-produk3.jpg"
+            },
+            {
+                "judul": "Kue Talam",
+                "deskripsi": "",
+                "harga": "",
+                "gambar": "ety-produk4.jpg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "judul": "Peningset_id",
+        "alamat_lengkap": "Gading RT 02 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Gading RT 02 RW 02 Desa Tuntang",
+        "no_telp": "6285865061996",
+        "gambar": "peningset.jpg",
+        "link": "",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+02+RW+03+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "Bu Robi",
+        "produk_lain": []
+    },
+    {
+        "id": 7,
+        "judul": "Tahu Bakso 83",
+        "alamat_lengkap": "Gading RT 04 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Gading RT 04 RW 02 Desa Tuntang",
+        "no_telp": "6285729211937",
+        "gambar": "tahubakso83.jpg",
+        "link": "",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+04+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "Bapak Musyafiin",
+        "produk_lain": []
+    },
+    {
+        "id": 8,
+        "judul": "Tiara Kerupuk Kedelai",
+        "alamat_lengkap": "Gading RT 01 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Gading RT 01 RW 02 Desa Tuntang",
+        "no_telp": "6281228533717",
+        "gambar": "tiara-kerupuk-kedelai1.jpg",
+        "link": "",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+01+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "Pak Wandi",
+        "produk_lain": []
+    },
+    {
+        "id": 9,
+        "judul": "Akbar Kerupuk Rambak",
+        "alamat_lengkap": "Gading RT 04 RW 02 Desa Tuntang, Kec. Tuntang, Kab. Semarang.",
+        "alamat_singkat": "Gading RT 04 RW 02 Desa Tuntang",
+        "no_telp": "62818457860",
+        "gambar": "",
+        "link": "",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Gading+RT+04+RW+02+Desa+Tuntang,+Kec.+Tuntang,+Kab.+Semarang",
+        "deskripsi": "",
+        "pemilik": "Pak Akbar",
+        "produk_lain": []
+    }
+]
