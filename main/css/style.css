@@ -1,0 +1,23 @@
+*,body{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.main{
+    display: block;
+}
+.content{
+    width: 100%;
+}
+
+.left-section{
+    float: left;
+}
+.right-section{
+    float: right;
+}
+
+
+.img-header img{
+    width: 200px;
+}

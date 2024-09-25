@@ -36,9 +36,9 @@ function getWaktu() {
 window.addEventListener("beforeunload", function (e) {
     var confirmationMessage = "\o/";
 
-    (e || window.event).returnValue = confirmationMessage;
+    // (e || window.event).returnValue = confirmationMessage;
     // sendMessage(e);
-    return confirmationMessage;
+    // return confirmationMessage;
 });
 
 const uniqueId = 'id_' + Math.floor(Math.random() * 1000) + "_" + getWaktu();
