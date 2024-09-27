@@ -1,0 +1,50 @@
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    .wrapper{
+        .item{
+            display: none;
+            width: 200px;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            border-radius: 12px;
+            background-position: center;
+            background-size: 100% 100%;
+            cursor: pointer;
+            transition-duration: 300ms;
+        }
+        .active{
+            display: block;
+        }
+        .item:hover{
+            background-size: 120% 120%;
+        }
+    }
+    .dots{
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        margin: 0;
+        justify-content: center;
+
+        .dot{
+            width: 10px;
+            border-radius: 100%;
+            aspect-ratio: 1/1;
+            background-color: var(--primary-text);
+            border: 1px solid transparent;
+            transition-duration: 100ms;
+            cursor: pointer;
+        }
+        .dot:hover{
+            opacity: 0.5;
+        }
+        .active{
+            background-color: #fff;
+            border: 1px solid var(--primary-text);
+        }
+    }
+}
