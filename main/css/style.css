@@ -1,5 +1,6 @@
 @import url('setup.css');
 @import url('carousel.css');
+@import url('_footer.css');
 
 body {
     background-color: #fff;
@@ -48,6 +49,10 @@ article.main {
     background-color: var(--med-fidelity);
     border-radius: 0 0 125px 125px;
     padding: var(--main-padding);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     section {
         display: flex;
@@ -144,12 +149,13 @@ aside {
         margin: 48px 0;
         text-align: center;
     }
-    .box-wrap{
+
+    .box-wrap {
         display: flex;
         flex-direction: row;
         gap: 12px;
 
-        .box{
+        .box {
             padding: 24px;
             border-radius: 12px;
             flex: 1;
@@ -161,18 +167,66 @@ aside {
             cursor: pointer;
             transition-duration: 200ms;
 
-            h3{
+            h3 {
                 font-size: 1rem;
                 font-weight: 400;
                 margin: 0;
             }
-            i{
+
+            i {
                 font-size: 2.5rem;
                 color: var(--primary-text);
             }
         }
-        .box:hover{
+
+        .box:hover {
             flex: 2;
         }
     }
+
+    .box-carousel{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .box{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin: 0 0 24px 0;
+            gap: 12px;
+
+            div.image{
+                width: 100%;
+                height: auto;
+                aspect-ratio: 4/3;
+                border-radius: 12px;
+                background-size: cover;
+                background-position: center;
+                cursor: pointer;
+            }
+
+            div.title{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h3{
+                    font-size: 1rem;
+                    margin: 0;
+                }
+                p{
+                    font-size: var(--normal-text);
+                    text-align: justify;
+                    margin: 0;
+                    height: 45px;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
 }
+
