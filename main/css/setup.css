@@ -9,7 +9,7 @@
 
     --primary-btn-hover: #0037ff;
 
-    --normal-text: 0.8rem;
+    --normal-text: 0.85rem;
 
     --main-padding: 48px 10%;
     --vertical-margin: 80px;
@@ -17,6 +17,11 @@
 
 *{
     scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: #adadad; /* Warna latar belakang saat teks di-blok */
+    color: var(--primary-text); /* Warna teks saat di-blok */
 }
 
 body{
@@ -30,6 +35,18 @@ body{
 
 .align-center{
     align-items: center !important;
+}
+
+.margin-0{
+    margin: 0 !important;
+}
+
+.flex-col{
+    flex-direction: column !important;
+}
+
+.main-padding{
+    padding: var(--main-padding);
 }
 
 .btn{

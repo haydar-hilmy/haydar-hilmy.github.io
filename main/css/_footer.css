@@ -3,6 +3,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    border-radius: 125px 125px 0 0;
+    margin-top: 48px;
 
     div.link-footer {
         padding: var(--main-padding);
@@ -28,6 +30,9 @@ footer {
                         text-decoration: none;
                         color: var(--primary-text);
                         font-size: var(--normal-text);
+                        img.logo{
+                            height: 30px;
+                        }
                     }
                     a:hover{
                         text-decoration: 1px solid underline;

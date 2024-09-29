@@ -111,7 +111,7 @@ article.main {
     }
 }
 
-article.about {
+article.paragraph {
     display: flex;
     flex-direction: row;
     padding: var(--main-padding);
@@ -138,13 +138,94 @@ article.about {
     section:nth-child(2) {
         flex: 1;
     }
+
+    p.one-col{
+        width: 75%;
+    }
+}
+
+article.media-display{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    section:nth-child(1){
+        padding: 48px 10% 0 10%;
+    }
+    section:nth-child(2){
+        padding-bottom: 48px;
+    }
+    
+
+    section {
+        h2 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin: 12px 0;
+        }
+
+        p {
+            line-height: 180%;
+            text-align: justify;
+            font-size: var(--normal-text);
+        }
+
+        div.carousel-box{
+            display: grid;
+            width: 80%;
+            overflow-x: auto;
+            grid-auto-flow: column;
+            overscroll-behavior-inline: contain;
+            gap: 2%;
+            padding-left: 10%;
+            padding-right: 10%;
+            .box{
+                width: 450px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                div.img{
+                    border-radius: 2px;
+                    width: 100%;
+                    height: auto;
+                    aspect-ratio: 16/9;
+                    background-position: center;
+                    background-size: cover;
+                    cursor: pointer;
+                }
+                h3{
+                    font-size: 1rem;
+                    font-weight: 500;
+                    margin: 0;
+                }
+            }
+        }
+
+        div.right-carousel-box{
+            direction: rtl;
+            
+            .box{
+                align-items: flex-end;
+            }
+        }
+
+        div.carousel-box::-webkit-scrollbar {
+            height: 0;
+        }
+        
+        div.carousel-box::-webkit-scrollbar-thumb {
+            background-color: transparent;
+        }
+    }
+
 }
 
 aside {
     padding: var(--main-padding);
 
     h2 {
-        font-size: 2.2rem;
+        font-size: 1.6rem;
         font-weight: 600;
         margin: 48px 0;
         text-align: center;
@@ -184,49 +265,5 @@ aside {
         }
     }
 
-    .box-carousel{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        width: 100%;
 
-        .box{
-            display: flex;
-            flex-direction: column;
-            width: 30%;
-            margin: 0 0 24px 0;
-            gap: 12px;
-
-            div.image{
-                width: 100%;
-                height: auto;
-                aspect-ratio: 4/3;
-                border-radius: 12px;
-                background-size: cover;
-                background-position: center;
-                cursor: pointer;
-            }
-
-            div.title{
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-
-                h3{
-                    font-size: 1rem;
-                    margin: 0;
-                }
-                p{
-                    font-size: var(--normal-text);
-                    text-align: justify;
-                    margin: 0;
-                    height: 45px;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
-                }
-            }
-        }
-    }
 }
-
