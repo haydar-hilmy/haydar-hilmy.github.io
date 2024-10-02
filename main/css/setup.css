@@ -21,7 +21,7 @@
 
 ::selection {
     background-color: #adadad; /* Warna latar belakang saat teks di-blok */
-    color: var(--primary-text); /* Warna teks saat di-blok */
+    color: var(--primary-text); /* Warna teks saat di-blok */ 
 }
 
 body{

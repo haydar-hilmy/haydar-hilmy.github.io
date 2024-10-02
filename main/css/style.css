@@ -49,7 +49,7 @@ article.main {
     background-color: var(--med-fidelity);
     border-radius: 0 0 125px 125px;
     padding: var(--main-padding);
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,11 +179,13 @@ article.media-display{
             gap: 2%;
             padding-left: 10%;
             padding-right: 10%;
+            scroll-snap-type: x mandatory;
             .box{
                 width: 450px;
                 display: flex;
                 flex-direction: column;
                 gap: 8px;
+                scroll-snap-align: center;
 
                 div.img{
                     border-radius: 2px;
