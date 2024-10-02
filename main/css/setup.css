@@ -10,9 +10,14 @@
     --primary-btn-hover: #0037ff;
 
     --normal-text: 0.85rem;
+    --small-text: 0.7rem;
+
+    --title-main: 4rem;
 
     --main-padding: 48px 10%;
     --vertical-margin: 80px;
+
+    --box-media: 450px;
 }
 
 *{
@@ -92,4 +97,11 @@ body{
     font-size: 1.05rem;
     border-radius: 120px;
     font-weight: 700;
+}
+
+@media (max-width: 355px){
+    .btn{
+        font-size: calc(var(--normal-text)*0.9);
+        padding: 9px 16px;
+    }
 }
