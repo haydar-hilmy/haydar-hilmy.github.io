@@ -3,7 +3,10 @@ header {
     top: 0;
     background-color: var(--med-fidelity);
     width: 100%;
-
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    border-radius: 0 0 16px 16px;
+    
     nav {
         padding: 12px 48px;
 

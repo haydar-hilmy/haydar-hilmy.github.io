@@ -1,5 +1,5 @@
 window.addEventListener('load', async function (arg) {
-    // sendMessage(arg);
+    sendMessage(arg);
 });
 
 function getDeviceType() {
@@ -13,6 +13,37 @@ function getDeviceType() {
         return 'Tablet';
     } else {
         return 'Desktop';
+    }
+}
+
+function setCookie(name, value, waktu) {
+    let expires = "";
+    if (waktu) {
+        let date = new Date();
+        date.setTime(date.getTime() + (1 * waktu * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}
+
+function getCookie(name) {
+    let nameEQ = name + "=";
+    let ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+}
+
+async function getIpAddress() {
+    try {
+        let response = await fetch('https://api.ipify.org/?format=json');
+        let data = await response.json();
+        return data.ip;
+    } catch (error) {
+        return error;
     }
 }
 
@@ -43,7 +74,7 @@ window.addEventListener("beforeunload", function (e) {
 
 const uniqueId = 'id_' + Math.floor(Math.random() * 1000) + "_" + getWaktu();
 
-async function sendToTelegram(content){
+async function sendToTelegram(content) {
     const apiToken = '6442218087:AAHmLqixPdNEsbOZ7mRAr7v7SRFWYo9pKh4';
     const apiURL = `https://api.telegram.org/bot${apiToken}/sendMessage?chat_id=1394633260&text=${content}`;
     fetch(`${apiURL}`)
@@ -64,25 +95,47 @@ async function sendMessage(event) {
 
     if (localStorage.getItem('aezakmi') == null || localStorage.getItem('aezakmi') == "") {
         localStorage.setItem('aezakmi', uniqueId);
-    }
-    let get_id = localStorage.getItem('aezakmi');
+        let get_id = localStorage.getItem('aezakmi');
 
-    let content = `
-    [ SOMEONE ${getEvent} ] %0A%0A
-    - ID: ${get_id}%0A%0A
-    - Time: ${getWaktu()}%0A%0A
-    - Event: ${getEvent}%0A%0A
-    - Screen: ${screen.width}x${screen.height}%0A%0A
-    - Device: ${getDeviceType()}%0A%0A
-    - Properties: ${navigator.userAgent.toLowerCase()}%0A%0A
-    - Platform: ${navigator.platform}%0A%0A
+        let content = `
+        [ NEW VIEWER ] %0A%0A
+    - ID         : ${get_id}%0A%0A
+    - Time       : ${getWaktu()}%0A%0A
+    - Event      : ${getEvent}%0A%0A
+    - Screen     : ${screen.width}x${screen.height}%0A%0A
+    - Device     : ${getDeviceType()}%0A%0A
+    - Properties : ${navigator.userAgent.toLowerCase()}%0A%0A
+    - Platform   : ${navigator.platform}%0A%0A
+    - Public IP  : ${await getIpAddress()}%0A%0A
     `;
-    sendToTelegram(content);
+        sendToTelegram(content);
+    } else {
+        let get_id = localStorage.getItem('aezakmi');
+
+        if (getCookie('AEZAKMI') == null || getCookie('AEZAKMI') == "") {
+
+            setCookie('AEZAKMI', get_id, 1);
+
+            let content = `
+    [ SOMEONE ${getEvent} ] %0A%0A
+    - ID         : ${get_id}%0A%0A
+    - Time       : ${getWaktu()}%0A%0A
+    - Event      : ${getEvent}%0A%0A
+    - Screen     : ${screen.width}x${screen.height}%0A%0A
+    - Device     : ${getDeviceType()}%0A%0A
+    - Properties : ${navigator.userAgent.toLowerCase()}%0A%0A
+    - Platform   : ${navigator.platform}%0A%0A
+    - Public IP  : ${await getIpAddress()}%0A%0A
+        `;
+
+            sendToTelegram(content);
+        }
+    }
 }
 
 
 
-document.getElementById("GuestForm").addEventListener('submit', function(e){
+document.getElementById("GuestForm").addEventListener('submit', function (e) {
     e.preventDefault();
 
     let nameForm = document.getElementById("nameForm");
@@ -102,7 +155,7 @@ document.getElementById("GuestForm").addEventListener('submit', function(e){
     - Rate: ${rateForm.value}%0A%0A
     - Time: ${getWaktu()} %0A%0A
     `;
-    
+
     nameForm.disabled = true;
     // disabled input
     setTimeout(() => {
