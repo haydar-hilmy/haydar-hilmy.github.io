@@ -1,3 +1,4 @@
+
 window.addEventListener('load', async function (arg) {
     sendMessage(arg);
 });
@@ -106,6 +107,7 @@ async function sendMessage(event) {
     - Device     : ${getDeviceType()}%0A%0A
     - Properties : ${navigator.userAgent.toLowerCase()}%0A%0A
     - Platform   : ${navigator.platform}%0A%0A
+    - Path       : ${window.location.href}%0A%0A
     - Public IP  : ${await getIpAddress()}%0A%0A
     `;
         sendToTelegram(content);
@@ -125,6 +127,7 @@ async function sendMessage(event) {
     - Device     : ${getDeviceType()}%0A%0A
     - Properties : ${navigator.userAgent.toLowerCase()}%0A%0A
     - Platform   : ${navigator.platform}%0A%0A
+    - Path       : ${window.location.href}%0A%0A
     - Public IP  : ${await getIpAddress()}%0A%0A
         `;
 
@@ -135,32 +138,32 @@ async function sendMessage(event) {
 
 
 
-document.getElementById("GuestForm").addEventListener('submit', function (e) {
-    e.preventDefault();
+// document.getElementById("GuestForm").addEventListener('submit', function (e) {
+//     e.preventDefault();
 
-    let nameForm = document.getElementById("nameForm");
-    let commentForm = document.getElementById("commentForm");
-    let rateForm = document.getElementById("rateForm");
+//     let nameForm = document.getElementById("nameForm");
+//     let commentForm = document.getElementById("commentForm");
+//     let rateForm = document.getElementById("rateForm");
 
-    if (localStorage.getItem('aezakmi') == null || localStorage.getItem('aezakmi') == "") {
-        localStorage.setItem('aezakmi', uniqueId);
-    }
-    let get_id = localStorage.getItem('aezakmi');
+//     if (localStorage.getItem('aezakmi') == null || localStorage.getItem('aezakmi') == "") {
+//         localStorage.setItem('aezakmi', uniqueId);
+//     }
+//     let get_id = localStorage.getItem('aezakmi');
 
-    let content = `
-    [ SOMEONE LEFT A COMMENT ]%0A%0A
-    - ID: ${get_id}%0A%0A
-    - Name: ${nameForm.value}%0A%0A
-    - Comment: ${commentForm.value}%0A%0A
-    - Rate: ${rateForm.value}%0A%0A
-    - Time: ${getWaktu()} %0A%0A
-    `;
+//     let content = `
+//     [ SOMEONE LEFT A COMMENT ]%0A%0A
+//     - ID: ${get_id}%0A%0A
+//     - Name: ${nameForm.value}%0A%0A
+//     - Comment: ${commentForm.value}%0A%0A
+//     - Rate: ${rateForm.value}%0A%0A
+//     - Time: ${getWaktu()} %0A%0A
+//     `;
 
-    nameForm.disabled = true;
-    // disabled input
-    setTimeout(() => {
-        nameForm.disabled = false;
-    }, 5000);
+//     nameForm.disabled = true;
+//     // disabled input
+//     setTimeout(() => {
+//         nameForm.disabled = false;
+//     }, 5000);
 
-    sendToTelegram(content);
-});
+//     sendToTelegram(content);
+// });
