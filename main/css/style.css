@@ -82,6 +82,7 @@ article.paragraph {
     flex-direction: row;
     padding: var(--main-padding);
     margin: var(--vertical-margin) 0;
+    align-items: center;
 
     section {
         h2 {
