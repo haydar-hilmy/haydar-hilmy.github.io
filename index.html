@@ -30,7 +30,16 @@
     <meta property="og:url" content="https://haydar-hilmy.github.io" />
     <meta property="og:type" content="website" />
 
-    <link rel="stylesheet" href="main/css/style.css">
+    <style>
+        body {
+            visibility: hidden;
+            /* Sembunyikan semua konten */
+            opacity: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="main/css/style.css"
+        onload="document.body.style.visibility='visible'; document.body.style.opacity=1;">
+
     <title>Profile - Haydar Hilmy</title>
 </head>
 
@@ -134,7 +143,8 @@
             <section>
                 <h2>Projects</h2>
                 <p class="one-col">Berbagai projek yang telah saya selesaikan mencerminkan keahlian saya dalam
-                    pengembangan web, solusi teknologi, dan pengembangan lainnya. Setiap projek menunjukkan keahlian saya dalam menciptakan
+                    pengembangan web, solusi teknologi, dan pengembangan lainnya. Setiap projek menunjukkan keahlian
+                    saya dalam menciptakan
                     solusi digital yang fungsional dan responsif.</p>
             </section>
             <section>
@@ -152,7 +162,8 @@
             <section>
                 <h2>Certificates</h2>
                 <p class="one-col">Berbagai sertifikat yang saya miliki mencerminkan keahlian saya di bidang
-                    pengembangan web dan pengembangan teknologi lainnya. Setiap sertifikat menunjukkan kemampuan saya dalam menciptakan
+                    pengembangan web dan pengembangan teknologi lainnya. Setiap sertifikat menunjukkan kemampuan saya
+                    dalam menciptakan
                     solusi digital yang praktis, responsif, dan selalu up-to-date dengan tren teknologi terbaru.</p>
             </section>
             <section>
@@ -271,7 +282,7 @@
         <button id="sendBtnForm" type="submit">Kirim</button>
     </form> -->
 
-    <!-- <script src="main/js/sendMessage.js"></script> -->
+    <script src="main/js/sendMessage.js"></script>
     <script src="main/js/carousel.js"></script>
     <script src="main/js/navbar.js"></script>
     <script src="main/js/data-controller.js"></script>

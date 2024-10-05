@@ -40,8 +40,8 @@ $(document).ready(function () {
                         } else {
                             $(this).append(`
                                     <div class="box">
-                                    <a href="${data.kategori}/${data.id}"><div class="img" style="background-image: url('main/assets/${data.gambar}');">
-                                    </div></a>
+                                    <div class="img" style="background-image: url('main/assets/${data.gambar}');">
+                                    </div>
                                     <h3>${data.nama}</h3>
                                     </div>`);
                         }
