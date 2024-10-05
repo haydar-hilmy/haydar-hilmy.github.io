@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="main/assets/logo/favicon - mc white.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <meta name="title" content="Haydar Hilmy A. - Portfolio" />
     <meta name="google-site-verification" content="" />
@@ -22,7 +23,7 @@
 
     <meta name="copyright" content="Haydar Hilmy A. 2024" />
 
-    <meta property="og:title" content="Haydar Hilmy A. - Portfolio" />
+    <meta property="og:title" content="Haydar Hilmy A. - Profile" />
     <meta property="og:description"
         content="Portofolio Haydar | Web Developer dengan berbagai proyek kreatif dalam pengembangan web dan pengembangan teknologi lainnya" />
     <meta property="og:image" content="https://haydar-hilmy.github.io/main/assets/me/ppme.jpg" />
@@ -55,7 +56,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id="main">
 
         <article class="main">
 
@@ -137,19 +138,11 @@
                     solusi digital yang fungsional dan responsif.</p>
             </section>
             <section>
-                <div class="carousel-box">
-                    <div class="box">
+                <div openData="projects" limitData="5" class="carousel-box open-data">
+                    <!-- <div class="box">
                         <div class="img" style="background-image: url('main/assets/projects/ecoticraft.png');"></div>
                         <h3>Ecoticraft</h3>
-                    </div>
-                    <div class="box">
-                        <div class="img" style="background-image: url('main/assets/projects/ecoticraft.png');"></div>
-                        <h3>Ecoticraft</h3>
-                    </div>
-                    <div class="box">
-                        <div class="img" style="background-image: url('main/assets/projects/ecoticraft.png');"></div>
-                        <h3>Ecoticraft</h3>
-                    </div>
+                    </div> -->
                 </div>
             </section>
         </article>
@@ -163,19 +156,11 @@
                     solusi digital yang praktis, responsif, dan selalu up-to-date dengan tren teknologi terbaru.</p>
             </section>
             <section>
-                <div class="carousel-box right-carousel-box">
-                    <div class="box">
-                        <div class="img" style="background-image: url('main/assets/projects/ecoticraft.png');"></div>
+                <div openData="certificates" limitData="5" class="carousel-box right-carousel-box open-data">
+                    <!-- <div class="box">
+                        <a><div class="img" style="background-image: url('main/assets/projects/ecoticraft.png');"></div></a>
                         <h3>Ecoticraft</h3>
-                    </div>
-                    <div class="box">
-                        <div class="img" style="background-image: url('main/assets/projects/ecoticraft.png');"></div>
-                        <h3>Ecoticraft</h3>
-                    </div>
-                    <div class="box">
-                        <div class="img" style="background-image: url('main/assets/projects/ecoticraft.png');"></div>
-                        <h3>Ecoticraft</h3>
-                    </div>
+                    </div> -->
                 </div>
             </section>
         </article>
@@ -286,9 +271,10 @@
         <button id="sendBtnForm" type="submit">Kirim</button>
     </form> -->
 
-    <script src="main/js/sendMessage.js"></script>
+    <!-- <script src="main/js/sendMessage.js"></script> -->
     <script src="main/js/carousel.js"></script>
     <script src="main/js/navbar.js"></script>
+    <script src="main/js/data-controller.js"></script>
 </body>
 
 </html>

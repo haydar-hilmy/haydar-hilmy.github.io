@@ -1,58 +1,68 @@
 [
     {
+      "id": 1,
       "nama": "Produk 1",
       "deskripsi": "Deskripsi untuk produk 1.",
       "tanggal": "2024-09-28",
-      "gambar": "https://example.com/gambar-produk1.jpg",
+      "gambar": "projects/https://example.com/gambar-produk1.jpg",
       "gambar_lain": [
         "https://example.com/gambar1a.jpg",
         "https://example.com/gambar1b.jpg"
       ],
-      "link": "https://example.com/produk1"
+      "link": "https://example.com/produk1",
+      "kategori": "projects"
     },
     {
+      "id": 2,
       "nama": "Produk 2",
       "deskripsi": "Deskripsi untuk produk 2.",
       "tanggal": "2024-09-27",
-      "gambar": "https://example.com/gambar-produk2.jpg",
+      "gambar": "projects/https://example.com/gambar-produk2.jpg",
       "gambar_lain": [
         "https://example.com/gambar2a.jpg",
         "https://example.com/gambar2b.jpg"
       ],
-      "link": "https://example.com/produk2"
+      "link": "https://example.com/produk2",
+      "kategori": "projects"
     },
     {
+      "id": 3,
       "nama": "Produk 3",
       "deskripsi": "Deskripsi untuk produk 3.",
       "tanggal": "2024-09-26",
-      "gambar": "https://example.com/gambar-produk3.jpg",
+      "gambar": "projects/https://example.com/gambar-produk3.jpg",
       "gambar_lain": [
         "https://example.com/gambar3a.jpg",
         "https://example.com/gambar3b.jpg"
       ],
-      "link": "https://example.com/produk3"
+      "link": "https://example.com/produk3",
+      "kategori": "projects"
     },
     {
+      "id": 4,
       "nama": "Produk 4",
       "deskripsi": "Deskripsi untuk produk 4.",
       "tanggal": "2024-09-25",
-      "gambar": "https://example.com/gambar-produk4.jpg",
+      "gambar": "projects/https://example.com/gambar-produk4.jpg",
       "gambar_lain": [
         "https://example.com/gambar4a.jpg",
         "https://example.com/gambar4b.jpg"
       ],
-      "link": "https://example.com/produk4"
+      "link": "https://example.com/produk4",
+      "kategori": "projects"
     },
     {
+      "id": 5,
       "nama": "Produk 5",
       "deskripsi": "Deskripsi untuk produk 5.",
       "tanggal": "2024-09-24",
-      "gambar": "https://example.com/gambar-produk5.jpg",
+      "gambar": "projects/https://example.com/gambar-produk5.jpg",
       "gambar_lain": [
         "https://example.com/gambar5a.jpg",
         "https://example.com/gambar5b.jpg"
       ],
-      "link": "https://example.com/produk5"
+      "link": "https://example.com/produk5",
+      "kategori": "projects"
     }
   ]
   
