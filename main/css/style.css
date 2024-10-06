@@ -1,14 +1,5 @@
 @import url('setup.css');
 @import url('carousel.css');
-@import url('footer.css');
-@import url('header.css');
-
-body {
-    background-color: #fff;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-size: 8px;
-}
-
 
 
 article.main {
@@ -46,7 +37,7 @@ article.main {
         }
 
         .main-img {
-            width: 75%;
+            width: 70%;
         }
 
         .link-icon {

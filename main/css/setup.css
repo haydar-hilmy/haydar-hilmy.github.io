@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('footer.css');
+@import url('header.css');
 
 :root{
     --primary-text: #202020;
@@ -30,8 +32,10 @@
 }
 
 body{
-    font-size: 12px;
     margin: 0;
+    background-color: #fff;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 8px;
 }
 
 .bold{
@@ -52,6 +56,17 @@ body{
 
 .main-padding{
     padding: var(--main-padding);
+}
+
+.flex-100{
+    display: flex;
+    width: 100%;
+}
+
+.light-text{
+    font-weight: 300;
+    margin: 0;
+    font-size: calc(var(--normal-text) * 0.7);
 }
 
 .btn{
@@ -98,6 +113,7 @@ body{
     border-radius: 120px;
     font-weight: 700;
 }
+
 
 @media (max-width: 355px){
     .btn{
