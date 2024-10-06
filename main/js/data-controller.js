@@ -28,8 +28,8 @@ $(document).ready(function () {
                         let linkTxt = data.link != null ? `<a href="${data.link}" target="_blank">check this <i class="fas fa-external-link-alt"></i></a>` : null;
                         $(this).append(`
                                     <div class="box">
-                                    <div class="img" style="background-image: url('main/assets/${data.gambar}');">
-                                    </div>
+                                    <a href="?id=${data.id}&kategori=${data.kategori}" target="_self"><div class="img" style="background-image: url('main/assets/${data.gambar}');">
+                                    </div></a>
                                     <h3><b>${data.nama}</b></h3>
                                     <h6 class="light-text">${data.tanggal}</h6>
                                     <p>${data.deskripsi} ${linkTxt != null ? linkTxt : ""}</p>

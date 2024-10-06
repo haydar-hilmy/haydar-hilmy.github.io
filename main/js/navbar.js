@@ -24,12 +24,14 @@ window.addEventListener("scroll", function () {
     }
 
     // OTOMATIS BERUBAH WARNA NAVBAR NYA
-    if(scrollTop > article_main.offsetHeight){
-        header_navbar.style.backgroundColor = "#FFF";
-        header_navbar.style.boxShadow = "-2px 0px 6px 0px rgba(0, 0, 0, 0.1)";
-    } else {
-        header_navbar.style.backgroundColor = "";
-        header_navbar.style.boxShadow = "";
+    if (article_main != undefined || article_main != null) {
+        if (scrollTop > article_main.offsetHeight) {
+            header_navbar.style.backgroundColor = "#FFF";
+            header_navbar.style.boxShadow = "-2px 0px 6px 0px rgba(0, 0, 0, 0.1)";
+        } else {
+            header_navbar.style.backgroundColor = "";
+            header_navbar.style.boxShadow = "";
+        }
     }
 
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Untuk menghindari nilai negatif
