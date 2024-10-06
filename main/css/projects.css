@@ -19,8 +19,11 @@ article.media-display {
             width: 75%;
             height: auto;
             aspect-ratio: 16 / 9;
+            transition-duration: 200ms;
             background-position: center;
-            background-size: cover;
+            background-size: auto 100%;
+            cursor: pointer;
+            background-repeat: no-repeat;
         }
 
         h2 {
@@ -49,7 +52,7 @@ article.media-display {
             scroll-snap-type: y mandatory;
             padding: 20px 10%;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
 
             .box {
                 width: 40%;
@@ -130,10 +133,29 @@ article.media-display {
 @media (max-width: 700px) {
     article.media-display {
         section {
+            h2{
+                font-size: 1.5rem;
+            }
+            div.banner-img{
+                width: 100%;
+            }
             div.carousel-box {
+                flex-direction: column;
+                align-items: center;
+                padding: 0 10% 48px 10%;
                 .box {
-                    width: 90%;
+                    width: 100%;
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    article.media-display {
+        section {
+            h2{
+                font-size: 1.1rem;
             }
         }
     }

@@ -1,106 +1,104 @@
 [
-    {
-      "id": 1,
-      "nama": "Dasar Pemrogaman Web - Dicoding",
-      "deskripsi": "Deskripsi untuk sertif 1",
-      "tanggal": "September 2024",
-      "kredensial": "QLZ9V8YYDX5D",
-      "gambar": "certificates/dasproweb - dicoding.png",
-      "gambar_lain": [
-        "certificates/2dasproweb - dicoding.png",
-        "certificates/3dasproweb - dicoding.png"
-      ],
-      "link": "https://drive.google.com/file/d/1V4WwAwiT_s-VxXoOPvAIJKcgklJTxeY7/view?usp=sharing",
-      "kategori": "certificates"
-    },
-    {
-      "id": 2,
-      "nama": "SQL Intermediate - Sololearn",
-      "deskripsi": "Deskripsi untuk sertif 2",
-      "tanggal": "Oktober 2024",
-      "kredensial": "CC-UOARIWNO",
-      "gambar": "certificates/SQL Intermediate - Sololearn.png",
-      "gambar_lain": [],
-      "link": "https://drive.google.com/file/d/1vwKJn7CxCqUXP7tsACDq3UuplpL3pQ2k/view?usp=sharing",
-      "kategori": "certificates"
-    },
-    {
-      "id": 3,
-      "nama": "Responsive Web Design - Sololearn",
-      "deskripsi": "Deskripsi untuk sertif 3",
-      "tanggal": "September 2024",
-      "kredensial": "CC-JCSFVYSN",
-      "gambar": "certificates/Responsive Web Design - Sololearn.png",
-      "gambar_lain": [],
-      "link": "https://drive.google.com/file/d/1N-BEAHyKaKyoOih8W91XPmoa_ivoNUlR/view?usp=sharing",
-      "kategori": "certificates"
-    },
-    {
-      "id": 4,
-      "nama": "Web Programming - Dinus University",
-      "deskripsi": "Deskripsi untuk sertif 5",
-      "tanggal": "April 2024",
-      "kredensial": "53/SERTIF/Doscom-DU/IV/2024",
-      "gambar": "certificates/web programming - doscom.jpg",
-      "gambar_lain": [],
-      "link": "https://drive.google.com/file/d/1IIWWfwkOrwf5sWKeX7Z9UuBylmwrkbBM/view?usp=sharing",
-      "kategori": "certificates"
-    },
-    {
-      "id": 5,
-      "nama": "The Hour of Code - Code.org",
-      "deskripsi": "Deskripsi untuk sertif 5",
-      "tanggal": "November 2022",
-      "kredensial": "",
-      "gambar": "certificates/thehourofcode.jpg",
-      "gambar_lain": [],
-      "link": "https://drive.google.com/file/d/1AvlMu3CT6x9sHq22As_v0eiLaAv0WfAM/view?usp=drive_link",
-      "kategori": "certificates"
-    },
-    {
-      "id": 6,
-      "nama": "HTML Course - CodeLiber",
-      "deskripsi": "Deskripsi untuk sertif 5",
-      "tanggal": "Januari 2021",
-      "kredensial": "",
-      "gambar": "certificates/htmlcourse.jpg",
-      "gambar_lain": [],
-      "link": "https://drive.google.com/file/d/1IHxDAJu3dP40doxdo5zh6YsY8T0mJvuJ/view?usp=sharing",
-      "kategori": "certificates"
-
-    },
-    {
-      "id": 7,
-      "nama": "Infrastructure for the Rest of Us - AWS Cloud Club IT",
-      "deskripsi": "Deskripsi untuk sertif 4",
-      "tanggal": "Mei 2024",
-      "kredensial": "10.0243/S/Infra-Camp/AWSCloudClub/V/2024",
-      "gambar": "certificates/infrastructure-aws.jpg",
-      "gambar_lain": [],
-      "link": "https://drive.google.com/file/d/1Ax5PmH7m1VGHxMvgd2PDE2chLP3eJdu_/view?usp=drive_link",
-      "kategori": "certificates"
-    },
-    {
-      "id": 8,
-      "nama": "Uji Kemahiran Berbahasa Indonesia",
-      "deskripsi": "Deskripsi untuk sertif 4",
-      "tanggal": "Agustus 2023",
-      "kredensial": "1SD-BB-0394398",
-      "gambar": "certificates/ujibahasaindonesia.jpg",
-      "gambar_lain": [],
-      "link": "https://drive.google.com/file/d/1B1XzV8Jn39b5iegAyWbMlZQE7hYVzK_U/view?usp=drive_link",
-      "kategori": "certificates"
-    },
-    {
-      "id": 9,
-      "nama": "Panitia Hi Technology 2024 - HMTI",
-      "deskripsi": "Deskripsi untuk sertif 4",
-      "tanggal": "April 2024",
-      "kredensial": "005/HMTI/Hi-Tech/IV/2024/191",
-      "gambar": "certificates/hitech.jpg",
-      "gambar_lain": [],
-      "link": "https://drive.google.com/file/d/1IDMr9DN6ATeI1RgOJn_7D9j59-hw8NUI/view?usp=sharing",
-      "kategori": "certificates"
-    }
+  {
+    "id": 1,
+    "nama": "Dasar Pemrogaman Web - Dicoding",
+    "deskripsi": "Sertifikat ini adalah tanda bahwa saya telah menguasai dasar-dasar pemrograman web. Dari HTML, CSS, hingga JavaScript, saya siap untuk menciptakan situs web yang menarik!.",
+    "tanggal": "September 2024",
+    "kredensial": "QLZ9V8YYDX5D",
+    "gambar": "certificates/dasproweb - dicoding.png",
+    "gambar_lain": [
+      "certificates/2dasproweb - dicoding.png",
+      "certificates/3dasproweb - dicoding.png"
+    ],
+    "link": "https://drive.google.com/file/d/1V4WwAwiT_s-VxXoOPvAIJKcgklJTxeY7/view?usp=sharing",
+    "kategori": "certificates"
+  },
+  {
+    "id": 2,
+    "nama": "SQL Intermediate - Sololearn",
+    "deskripsi": "Dengan sertifikat ini, saya telah melangkah lebih jauh dalam dunia database! Saya menguasai SQL untuk mengelola dan menganalisis data dengan lebih efisien.",
+    "tanggal": "Oktober 2024",
+    "kredensial": "CC-UOARIWNO",
+    "gambar": "certificates/SQL Intermediate - Sololearn.png",
+    "gambar_lain": [],
+    "link": "https://drive.google.com/file/d/1vwKJn7CxCqUXP7tsACDq3UuplpL3pQ2k/view?usp=sharing",
+    "kategori": "certificates"
+  },
+  {
+    "id": 3,
+    "nama": "Responsive Web Design - Sololearn",
+    "deskripsi": "Sertifikat ini menandakan bahwa saya telah belajar membuat desain web yang responsif. Siap untuk membuat situs yang terlihat luar biasa di semua perangkat!.",
+    "tanggal": "September 2024",
+    "kredensial": "CC-JCSFVYSN",
+    "gambar": "certificates/Responsive Web Design - Sololearn.png",
+    "gambar_lain": [],
+    "link": "https://drive.google.com/file/d/1N-BEAHyKaKyoOih8W91XPmoa_ivoNUlR/view?usp=sharing",
+    "kategori": "certificates"
+  },
+  {
+    "id": 4,
+    "nama": "Web Programming - Doscom University",
+    "deskripsi": "Sertifikat ini adalah pengakuan bahwa saya telah menyelesaikan program pemrograman web. Saya siap untuk mengubah ide menjadi kenyataan melalui kode!.",
+    "tanggal": "April 2024",
+    "kredensial": "53/SERTIF/Doscom-DU/IV/2024",
+    "gambar": "certificates/web programming - doscom.jpg",
+    "gambar_lain": [],
+    "link": "https://drive.google.com/file/d/1IIWWfwkOrwf5sWKeX7Z9UuBylmwrkbBM/view?usp=sharing",
+    "kategori": "certificates"
+  },
+  {
+    "id": 5,
+    "nama": "The Hour of Code - Code.org",
+    "deskripsi": "Sertifikat ini menandakan bahwa saya telah berpartisipasi dalam 'The Hour of Code', sebuah langkah awal yang menyenangkan untuk memahami dunia pemrograman.",
+    "tanggal": "November 2022",
+    "kredensial": "",
+    "gambar": "certificates/thehourofcode.jpg",
+    "gambar_lain": [],
+    "link": "https://drive.google.com/file/d/1AvlMu3CT6x9sHq22As_v0eiLaAv0WfAM/view?usp=drive_link",
+    "kategori": "certificates"
+  },
+  {
+    "id": 6,
+    "nama": "HTML Course - CodeLiber",
+    "deskripsi": "Sertifikat ini adalah pengakuan bahwa saya telah menyelesaikan kursus HTML. Saya siap untuk membangun struktur dasar website yang solid!.",
+    "tanggal": "Januari 2021",
+    "kredensial": "",
+    "gambar": "certificates/htmlcourse.jpg",
+    "gambar_lain": [],
+    "link": "https://drive.google.com/file/d/1IHxDAJu3dP40doxdo5zh6YsY8T0mJvuJ/view?usp=sharing",
+    "kategori": "certificates"
+  },
+  {
+    "id": 7,
+    "nama": "Infrastructure for the Rest of Us - AWS Cloud Club IT",
+    "deskripsi": "",
+    "tanggal": "Mei 2024",
+    "kredensial": "10.0243/S/Infra-Camp/AWSCloudClub/V/2024",
+    "gambar": "certificates/infrastructure-aws.jpg",
+    "gambar_lain": [],
+    "link": "https://drive.google.com/file/d/1Ax5PmH7m1VGHxMvgd2PDE2chLP3eJdu_/view?usp=drive_link",
+    "kategori": "certificates"
+  },
+  {
+    "id": 8,
+    "nama": "Uji Kemahiran Berbahasa Indonesia",
+    "deskripsi": "Sertifikat ini menandakan bahwa saya telah lulus uji kemahiran berbahasa Indonesia. Sebuah pengakuan atas kemampuan bahasa yang saya miliki!.",
+    "tanggal": "Agustus 2023",
+    "kredensial": "1SD-BB-0394398",
+    "gambar": "certificates/ujibahasaindonesia.jpg",
+    "gambar_lain": [],
+    "link": "https://drive.google.com/file/d/1B1XzV8Jn39b5iegAyWbMlZQE7hYVzK_U/view?usp=drive_link",
+    "kategori": "certificates"
+  },
+  {
+    "id": 9,
+    "nama": "Panitia Hi Technology 2024 - HMTI",
+    "deskripsi": "Sertifikat ini merupakan pengakuan bahwa saya telah berkontribusi sebagai panitia di event Hi Technology 2024. Pengalaman berharga di dunia organisasi!.",
+    "tanggal": "April 2024",
+    "kredensial": "005/HMTI/Hi-Tech/IV/2024/191",
+    "gambar": "certificates/hitech.jpg",
+    "gambar_lain": [],
+    "link": "https://drive.google.com/file/d/1IDMr9DN6ATeI1RgOJn_7D9j59-hw8NUI/view?usp=sharing",
+    "kategori": "certificates"
+  }
 ]
-  

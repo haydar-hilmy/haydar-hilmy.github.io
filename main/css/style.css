@@ -10,6 +10,8 @@ article.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition-duration: 400ms;
+    
 
     section {
         display: flex;
@@ -68,12 +70,15 @@ article.main {
     }
 }
 
+
+
 article.paragraph {
     display: flex;
     flex-direction: row;
     padding: var(--main-padding);
     margin: var(--vertical-margin) 0;
     align-items: center;
+    transition-duration: 400ms;
 
     section {
         h2 {
