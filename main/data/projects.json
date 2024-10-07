@@ -26,7 +26,7 @@
       "kategori": "projects"
     },
     {
-      "id": 2,
+      "id": 3,
       "nama": "Weather App Forecast",
       "deskripsi": "Aplikasi ramalan cuaca beberapa hari kedepan.",
       "tanggal": "Mei 2023",
@@ -36,7 +36,7 @@
       "kategori": "projects"
     },
     {
-      "id": 3,
+      "id": 4,
       "nama": "Vigenere Cipher",
       "deskripsi": "Aplikasi enkripsi menggunakan algoritma Vigenere Cipher. Mengubah plaintext menjadi ciphertext (Enkripsi) dan mengubah ciphertext menjadi plaintext (Dekripsi).",
       "tanggal": "Oktober 2023",
@@ -46,7 +46,7 @@
       "kategori": "projects"
     },
     {
-      "id": 4,
+      "id": 5,
       "nama": "Invent Stack",
       "deskripsi": "Projek ini adalah permintaan klien untuk pembuatan aplikasi Inventaris Barang menggunakan FIFO Method.",
       "tanggal": "November 2023",
@@ -56,7 +56,7 @@
       "kategori": "projects"
     },
     {
-      "id": 5,
+      "id": 6,
       "nama": "Note App - Vue.js Integrated",
       "deskripsi": "Aplikasi catatan sederhana yang dibangun dengan sebuah framework Vue.JS dengan kombinasi Tailwind sebagai CSS Framework.",
       "tanggal": "Februari 2024",
@@ -66,7 +66,7 @@
       "kategori": "projects"
     },
     {
-      "id": 6,
+      "id": 7,
       "nama": "Katalog Kopi - Renjana",
       "deskripsi": "Website profile Renjana Coffee permintaan klien.",
       "tanggal": "Januari 2024",
@@ -78,7 +78,7 @@
       "kategori": "projects"
     },
     {
-      "id": 7,
+      "id": 8,
       "nama": "LooksId - Creative Platform",
       "deskripsi": "Projek mata kuliah Pemrogaman Berbasis Web. Projek ini memiliki konsep seperti Pinterest. Namun belum terintegrasi dengan database.",
       "tanggal": "Desember 2022",
