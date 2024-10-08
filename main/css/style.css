@@ -111,6 +111,8 @@ article.media-display {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
 
     section:nth-child(1) {
         padding: 48px 10% 0 10%;
@@ -143,7 +145,7 @@ article.media-display {
             gap: 2%;
             scroll-snap-type: x mandatory;
             padding: 20px 10%;
-
+            
             .box {
                 width: var(--box-media);
                 display: flex;
@@ -231,7 +233,7 @@ aside {
             flex-direction: column;
             align-items: center;
             cursor: pointer;
-            transition-duration: 200ms;
+            transition-duration: 400ms;
 
             h3 {
                 font-size: 1rem;
