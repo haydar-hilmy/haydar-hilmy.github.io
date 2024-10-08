@@ -61,9 +61,16 @@ article.main {
                 a img {
                     height: 1.25rem;
                 }
+                a{
+                    transition-duration: 100ms;
+                }
 
                 a .special {
                     height: 2.5rem;
+                }
+                a:hover{
+                    transform: translateY(-5px);
+                    transition-duration: 200ms;
                 }
             }
         }

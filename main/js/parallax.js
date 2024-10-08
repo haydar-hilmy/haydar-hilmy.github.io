@@ -46,7 +46,7 @@ window.addEventListener('scroll', function(){
     
     media_display.forEach(md => {
         let loc_md = md.getBoundingClientRect().top;
-        if(loc_md < 350){
+        if(loc_md < 300){
             md.style.opacity = 1;
         } else {
             md.style.opacity = 0;
