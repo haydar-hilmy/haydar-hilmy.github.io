@@ -148,7 +148,7 @@ function updateData() {
         if (item.id === getData.id) {
             item.title = bookFormTitle.value;
             item.author = bookFormAuthor.value;
-            item.year = bookFormYear.value;
+            item.year = parseInt(bookFormYear.value);
             item.isComplete = bookFormIsComplete.checked;
         }
         return item;
@@ -189,7 +189,7 @@ function editData(id = null) {
 
     bookFormTitle.value = getData.title;
     bookFormAuthor.value = getData.author;
-    bookFormYear.value = getData.year;
+    bookFormYear.value = parseInt(getData.year);
     bookFormIsComplete.checked = getData.isComplete;
 
 }
@@ -206,7 +206,7 @@ function submitForm(e) {
             id: randomNumber,
             title: bookFormTitle.value.trim(),
             author: bookFormAuthor.value.trim(),
-            year: bookFormYear.value.trim(),
+            year: parseInt(bookFormYear.value.trim()),
             isComplete: bookFormIsComplete.checked
         }
 
