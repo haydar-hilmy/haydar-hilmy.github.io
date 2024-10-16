@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="import" href="component.html">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet' />
+  <title>Bookshelf App</title>
+
+  <!-- Impor script kamu di sini -->
+  <!-- Lampirkan `defer` jika pemanggilan dilakukan dalam <head> -->
+  <script defer src="main.js"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', Arial, Helvetica, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    button {
+      cursor: pointer;
+      font-size: 0.8;
+      padding: 12px 18px;
+      background-color: #e4e4e4;
+      color: #000;
+      border: 0;
+      border-radius: 8px;
+      transition-duration: 200ms;
+    }
+
+    button.btn-primary {
+      background-color: rgb(85, 85, 211);
+      color: #fff;
+    }
+
+    button.btn-primary:hover {
+      background-color: rgb(116, 116, 252);
+    }
+
+    button.btn-second {
+      background-color: rgb(113, 218, 92);
+      color: #fff;
+    }
+
+    button.btn-second:hover {
+      background-color: rgb(153, 250, 133);
+    }
+
+    button.btn-danger {
+      background-color: rgb(202, 59, 59);
+      color: #fff;
+    }
+
+    button.btn-danger:hover {
+      background-color: rgb(230, 86, 86);
+    }
+
+    input {
+      background-color: #fff;
+      border: 1px solid #969696;
+      padding: 8px 18px;
+      border-radius: 6px;
+    }
+
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+
+    main {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      section {
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+        margin: 0 0 48px 0;
+        padding: 18px;
+        border-radius: 12px;
+        width: 30%;
+
+        form {
+          div {
+            display: flex;
+            gap: 6px;
+            flex-direction: column;
+            margin-bottom: 16px;
+          }
+
+          button {
+            width: 100%;
+          }
+
+        }
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Bookshelf App</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2 id="titleForm">Tambah Buku Baru</h2>
+      <form id="bookForm" data-testid="bookForm">
+        <div>
+          <label for="bookFormTitle">Judul</label>
+          <input id="bookFormTitle" type="text" required data-testid="bookFormTitleInput" />
+        </div>
+        <div>
+          <label for="bookFormAuthor">Penulis</label>
+          <input id="bookFormAuthor" type="text" required data-testid="bookFormAuthorInput" />
+        </div>
+        <div>
+          <label for="bookFormYear">Tahun</label>
+          <input id="bookFormYear" type="number" required data-testid="bookFormYearInput" />
+        </div>
+        <div style="flex-direction: row;">
+          <label for="bookFormIsComplete">Selesai dibaca</label>
+          <input id="bookFormIsComplete" type="checkbox" data-testid="bookFormIsCompleteCheckbox" />
+        </div>
+        <button class="btn-primary" id="bookFormSubmit" type="submit" data-testid="bookFormSubmitButton">
+          Masukkan Buku ke rak <span style="font-weight: 700;">Belum selesai dibaca</span>
+        </button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Cari Buku</h2>
+      <form id="searchBook" data-testid="searchBookForm">
+        <label for="searchBookTitle">Judul</label>
+        <input id="searchBookTitle" type="text" data-testid="searchBookFormTitleInput" />
+        <button class="btn-second" style="margin-top: 18px;" id="searchSubmit" type="submit"
+          data-testid="searchBookFormSubmitButton">
+          Cari
+        </button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Belum selesai dibaca</h2>
+
+      <div id="incompleteBookList" data-testid="incompleteBookList">
+        <!-- 
+            Ini adalah struktur HTML untuk masing-masing buku.
+            Pastikan susunan elemen beserta atribut data-testid menyesuaikan seperti contoh ini.
+          -->
+
+      </div>
+    </section>
+
+    <section>
+      <h2>Selesai dibaca</h2>
+
+      <div id="completeBookList" data-testid="completeBookList">
+        <!-- 
+            Ini adalah struktur HTML untuk masing-masing buku.
+            Pastikan susunan elemen beserta atribut data-testid menyesuaikan seperti contoh ini.
+          -->
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
