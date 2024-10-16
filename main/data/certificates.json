@@ -1,6 +1,19 @@
 [
   {
     "id": 1,
+    "nama": "Front End Pemula - Dicoding",
+    "deskripsi": "Sertifikat ini adalah tanda bahwa saya telah memahami dan menguasai Front End Web. Dari sertifikat ini, saya menghasilkan penugasan proyek kecil yaitu BookShelf App",
+    "tanggal": "Oktober 2024",
+    "kredensial": "JLX142775X72",
+    "gambar": "certificates/frontendpemula - dicoding.png",
+    "gambar_lain": [
+      "certificates/2frontendpemula - dicoding.png"
+    ],
+    "link": "https://drive.google.com/file/d/10SqrkOBjSoRmvXilbsKST4jHUzIpF4KL/view?usp=sharing",
+    "kategori": "certificates"
+  },
+  {
+    "id": 2,
     "nama": "Dasar Pemrogaman Web - Dicoding",
     "deskripsi": "Sertifikat ini adalah tanda bahwa saya telah menguasai dasar-dasar pemrograman web. Dari HTML, CSS, hingga JavaScript, saya siap untuk menciptakan situs web yang menarik!.",
     "tanggal": "September 2024",
@@ -14,7 +27,7 @@
     "kategori": "certificates"
   },
   {
-    "id": 2,
+    "id": 3,
     "nama": "SQL Intermediate - Sololearn",
     "deskripsi": "Dengan sertifikat ini, saya telah melangkah lebih jauh dalam dunia database! Saya menguasai SQL untuk mengelola dan menganalisis data dengan lebih efisien.",
     "tanggal": "Oktober 2024",
@@ -25,7 +38,7 @@
     "kategori": "certificates"
   },
   {
-    "id": 3,
+    "id": 4,
     "nama": "Responsive Web Design - Sololearn",
     "deskripsi": "Sertifikat ini menandakan bahwa saya telah belajar membuat desain web yang responsif. Siap untuk membuat situs yang terlihat luar biasa di semua perangkat!.",
     "tanggal": "September 2024",
@@ -36,7 +49,7 @@
     "kategori": "certificates"
   },
   {
-    "id": 4,
+    "id": 5,
     "nama": "Web Programming - Doscom University",
     "deskripsi": "Sertifikat ini adalah pengakuan bahwa saya telah menyelesaikan program pemrograman web. Saya siap untuk mengubah ide menjadi kenyataan melalui kode!.",
     "tanggal": "April 2024",
@@ -47,7 +60,7 @@
     "kategori": "certificates"
   },
   {
-    "id": 5,
+    "id": 6,
     "nama": "The Hour of Code - Code.org",
     "deskripsi": "Sertifikat ini menandakan bahwa saya telah berpartisipasi dalam 'The Hour of Code', sebuah langkah awal yang menyenangkan untuk memahami dunia pemrograman.",
     "tanggal": "November 2022",
@@ -58,7 +71,7 @@
     "kategori": "certificates"
   },
   {
-    "id": 6,
+    "id": 7,
     "nama": "HTML Course - CodeLiber",
     "deskripsi": "Sertifikat ini adalah pengakuan bahwa saya telah menyelesaikan kursus HTML. Saya siap untuk membangun struktur dasar website yang solid!.",
     "tanggal": "Januari 2021",
@@ -69,7 +82,7 @@
     "kategori": "certificates"
   },
   {
-    "id": 7,
+    "id": 8,
     "nama": "Infrastructure for the Rest of Us - AWS Cloud Club IT",
     "deskripsi": "",
     "tanggal": "Mei 2024",
@@ -80,7 +93,7 @@
     "kategori": "certificates"
   },
   {
-    "id": 8,
+    "id": 9,
     "nama": "Uji Kemahiran Berbahasa Indonesia",
     "deskripsi": "Sertifikat ini menandakan bahwa saya telah lulus uji kemahiran berbahasa Indonesia. Sebuah pengakuan atas kemampuan bahasa yang saya miliki!.",
     "tanggal": "Agustus 2023",
@@ -91,7 +104,7 @@
     "kategori": "certificates"
   },
   {
-    "id": 9,
+    "id": 10,
     "nama": "Panitia Hi Technology 2024 - HMTI",
     "deskripsi": "Sertifikat ini merupakan pengakuan bahwa saya telah berkontribusi sebagai panitia di event Hi Technology 2024. Pengalaman berharga di dunia organisasi!.",
     "tanggal": "April 2024",
