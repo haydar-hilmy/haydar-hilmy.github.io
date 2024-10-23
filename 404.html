@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,18 +10,22 @@
     <title>404 - Not Found</title>
 
     <style>
-        body{
+        body {
             margin: 0;
             font-family: 'Inter', Arial, Helvetica, sans-serif;
+            transition-duration: 1000ms;
             color: #202020;
         }
-        .wrap{
+
+        .wrap {
             height: 100vh;
             width: 100%;
             display: flex;
             justify-content: stretch;
             align-items: stretch;
-            .inner{
+            position: fixed;
+
+            .inner {
                 margin: 6%;
                 width: 100%;
                 border-radius: 24px;
@@ -30,29 +35,133 @@
                 align-items: center;
                 background-color: rgb(116, 255, 248);
             }
-            ._404{
+
+            ._404 {
                 font-size: 7rem;
                 font-family: 'Anton', Arial, Helvetica, sans-serif;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+
+                ._4 {}
+
+                ._0 {
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                    background-color: #fff;
+                    padding: 0 24px;
+                    font-size: 9rem;
+                    letter-spacing: 0;
+                    border-radius: 24px;
+                    animation-duration: 30ms;
+                    animation-timing-function: linear;
+                    animation-iteration-count: infinite;
+                    transition-duration: 8000ms;
+                }
             }
-            p{
+
+            p {
                 width: 65%;
-                font-size: 0.9rem;
+                font-size: 1.15rem;
                 text-align: center;
+            }
+        }
+
+        @keyframes quake {
+            0% {
+                transform: rotate(0)
+            }
+
+            25% {
+                transform: rotate(10deg);
+            }
+
+            50% {
+                transform: rotate(-10deg);
+            }
+
+            75% {
+                transform: rotate(-8deg);
+            }
+
+            100% {
+                transform: rotate(0);
             }
         }
     </style>
 </head>
+
 <body>
 
     <div class="wrap">
         <div class="inner">
             <div class="_404">
-                404
+                <div class="_4">4</div>
+                <div class="_0" id="no0">0</div>
+                <div class="_4">4</div>
             </div>
             <p>Hmm, nggak ada yang diseduh di sini. Coba cek tempat lain yuk!</p>
         </div>
     </div>
 
 
+    <div id="br"></div>
+
+
+
+    <script>
+        const no0 = document.getElementById('no0');
+        const br = document.getElementById('br');
+
+        // let totalHeight = window.innerHeight;
+
+        for (let idx = 0; idx < 100; idx++) {
+            br.innerHTML += "<br>";
+        }
+
+        function changeTheme(idx) {
+            let wrap = document.querySelector('.wrap');
+
+            if (idx == 0) {
+                document.querySelector('body').style.backgroundColor = '#FEF9F2'
+            } else if (idx == 1) {
+                document.querySelector('body').style.backgroundColor = '#EB8317'
+            } else if (idx == 2) {
+                document.querySelector('body').style.backgroundColor = '#0F044C'
+            }
+        }
+
+        window.addEventListener('load', () => {
+
+
+            let getInterval = setInterval(() => {
+                const random = Math.floor(Math.random() * 10);
+                no0.style.animationName = 'quake';
+                no0.textContent = random;
+                setTimeout(() => {
+                    no0.style.animationName = '';
+                }, 30);
+            }, 200);
+
+            setTimeout(() => {
+                clearInterval(getInterval)
+                no0.textContent = 0;
+            }, 5000);
+        })
+
+        window.addEventListener('scroll', () => {
+
+            let totalHeight = document.documentElement.scrollHeight;
+
+            let YLevel = window.scrollY;
+            if (YLevel > (totalHeight * 0.56)) {
+                changeTheme(2)
+            } else if (YLevel > (totalHeight * 0.23)) {
+                changeTheme(1)
+            } else {
+                changeTheme(0)
+            }
+        })
+    </script>
 </body>
+
 </html>
